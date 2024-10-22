@@ -8343,6 +8343,206 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="chrome2" Key="{481DF6D0-4B14-44D3-B38E-38FEADE79CE6}">
+						<TypeInfo Item0="{3D64592C-DA67-4076-B435-EBDF368F740E}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="chrome" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageMagayaQaDfp" Key="{1190D850-A7BF-444A-8899-9924501E7DBF}">
+								<Image FileName="769123238" Left="8" Top="129" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{2EFC1068-7347-40A1-8873-4A816180FB49}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magaya-qadfp.qwykportals.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="navDashboard" Key="{861E6F33-539F-452E-A344-ED143FBD0832}">
+										<Image FileName="769123238" Left="8" Top="129" Right="1928" Bottom="208" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Dashboard&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;qwyk-navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-navigation-bar/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinprodTest" Key="{C5ADD5B5-9FF1-4D4D-AFBF-29D6836F435B}">
+										<Image FileName="769123238" Left="1403" Top="147" Right="1553" Bottom="189" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;AylinProd Test&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAylinprodTest" Key="{6E8202B1-D6D4-4AD5-8546-7E3347F3B937}">
+										<Image FileName="769123238" Left="1403" Top="147" Right="1553" Bottom="189" />
+										<TypeInfo Item0="{D3C2C6BB-DEEA-4DE3-92D1-6A940332AFCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;AylinProd Test&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinprodTest2" Key="{F67494CF-4C61-403A-9354-92E37877AAD3}">
+										<Image FileName="769123238" Left="1420" Top="158" Right="1522" Bottom="177" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;AylinProd Test&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn" Key="{9E0870EA-4A39-46EF-AB16-AAC57927F4E5}">
+										<Image FileName="1976059067" Left="1319" Top="139" Right="1545" Bottom="181" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;mt-3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignIn2" Key="{7C8BBDB0-6EA9-4643-8DD6-497B1CE7F3FE}">
+										<Image FileName="1976059067" Left="1363" Top="139" Right="1445" Bottom="181" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;mr-lg-2&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignIn" Key="{0DA6FFAE-0B0C-4BDE-B99A-F07C36C33B5B}">
+										<Image FileName="1976059067" Left="1363" Top="139" Right="1445" Bottom="181" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[2]/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSignInToYourAccount" Key="{720798BF-2F2C-4541-918C-5048F15094FC}">
+										<Image FileName="-1705906440" Left="1008" Top="428" Right="1482" Bottom="732" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign in to your account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;pt-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{6031A22B-5045-49DF-BB73-BA26799DC174}">
+										<Image FileName="-1705906440" Left="1008" Top="502" Right="1482" Bottom="544" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{9B23EFD3-D249-4E05-892B-23C1DDB19B52}">
+										<Image FileName="1521506008" Left="1008" Top="590" Right="1482" Bottom="632" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{708388E4-9560-434E-8079-7917AAA55791}">
+										<Image FileName="-1487056935" Left="1008" Top="648" Right="1482" Bottom="686" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
+								<Image FileName="1976059067" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -9158,6 +9358,28 @@
 					</Child>
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="chrome2" Owner="{481DF6D0-4B14-44D3-B38E-38FEADE79CE6}">
+			<Child Name="pageMagayaQaDfp" Owner="{1190D850-A7BF-444A-8899-9924501E7DBF}">
+				<Child Name="navDashboard" Owner="{861E6F33-539F-452E-A344-ED143FBD0832}">
+					<Child Name="textnodeAylinprodTest" Owner="{C5ADD5B5-9FF1-4D4D-AFBF-29D6836F435B}">
+						<Child Name="linkAylinprodTest" Owner="{6E8202B1-D6D4-4AD5-8546-7E3347F3B937}">
+							<Child Name="textnodeAylinprodTest2" Owner="{F67494CF-4C61-403A-9354-92E37877AAD3}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeSignIn" Owner="{9E0870EA-4A39-46EF-AB16-AAC57927F4E5}">
+						<Child Name="textnodeSignIn2" Owner="{7C8BBDB0-6EA9-4643-8DD6-497B1CE7F3FE}">
+							<Child Name="linkSignIn" Owner="{0DA6FFAE-0B0C-4BDE-B99A-F07C36C33B5B}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="formSignInToYourAccount" Owner="{720798BF-2F2C-4541-918C-5048F15094FC}">
+					<Child Name="textboxUsername" Owner="{6031A22B-5045-49DF-BB73-BA26799DC174}" />
+					<Child Name="passwordboxPassword" Owner="{9B23EFD3-D249-4E05-892B-23C1DDB19B52}" />
+					<Child Name="buttonSignIn" Owner="{708388E4-9560-434E-8079-7917AAA55791}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 		</Child>
 	</LogicalNodes>
 </Root>
