@@ -998,6 +998,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelTestingprod" Key="{7B366B2E-8047-4AD1-944C-F1EEF6AC01FD}">
+										<Image FileName="2111503742" Left="634" Top="579" Right="1317" Bottom="601" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;TestingProd&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageQuotationsMagayaDigitalFreig" Key="{212136FB-3B45-4743-9B00-0C8AC62E9D31}">
@@ -8679,6 +8688,7 @@
 						<Child Name="textnodeAylinstagingYopmailCom" Owner="{BEB18B33-0CC6-4247-851D-6B11BC49CA26}" />
 						<Child Name="textnodeTruck" Owner="{5861F051-D414-43C5-A243-8C6B057AEFF5}" />
 						<Child Name="textnodeTrainingDfpYopmailCom" Owner="{73B1E1F4-D103-47AB-AB73-9E9E760126F1}" />
+						<Child Name="panelTestingprod" Owner="{7B366B2E-8047-4AD1-944C-F1EEF6AC01FD}" />
 					</Child>
 					<Child Name="buttonPublishingTheQuotationMake" Owner="{B034345F-1035-4071-BFCE-EB676AE01600}" />
 					<Child Name="cell" Owner="{EB5CCCD1-6CD7-4542-9593-112796CC3E41}" />
