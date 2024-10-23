@@ -1003,6 +1003,9 @@
 										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[contains(text(), &apos;| aylinprod@yopmail.com&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[contains(text(), &apos;TestingProd&apos;)]" />
 											</Selector>
 										</Selectors>
