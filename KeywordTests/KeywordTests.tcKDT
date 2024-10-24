@@ -59,6 +59,23 @@
 						<child name="CreateNewOffer" key="{472D81C5-E525-4035-8FCF-8F7A7896E0EF}" path="CreateNewOffer.tcKDTest" />
 						<child name="SearchQuoteIDHUB" key="{2A8B501E-C2D4-4159-83ED-425A52C6DFB7}" path="SearchQuoteIDHUB.tcKDTest" />
 					</folder>
+					<folder name="Filters">
+						<child name="FilterCompletedStatus" key="{1FA2E623-2625-40B6-8F99-34D054437A9F}" path="FilterCompletedStatus.tcKDTest" />
+						<child name="FilterShipmentReference" key="{D4E50CCE-7410-4452-8E7D-56A065C9428D}" path="FilterShipmentReference.tcKDTest" />
+						<child name="FilterCustomer" key="{E4705944-FA7F-4A68-AE3C-C1E74421F584}" path="FilterCustomer.tcKDTest" />
+						<child name="FilterCustomerReference" key="{0071B182-5663-4194-AE87-C73ED2ED5164}" path="FilterCustomerReference.tcKDTest" />
+						<child name="FilterStatus" key="{FE41C77C-B068-462B-8252-C78F373D464C}" path="FilterStatus.tcKDTest" />
+						<child name="FilterBookingDate" key="{E4ECD0E5-743E-4D1F-94B1-8B8C7606D2CF}" path="FilterBookingDate.tcKDTest" />
+						<child name="FilterMilestoneConfirmed" key="{81E99073-89C8-4469-A4F0-3D86D05F22B5}" path="FilterMilestoneConfirmed.tcKDTest" />
+						<child name="FilterMasterBL" key="{BD7174DF-A382-4F83-85E5-BA4E335D95AE}" path="FilterMasterBL.tcKDTest" />
+						<child name="FilterHouseBL" key="{1AC575E1-CE59-4AC9-AC8A-4480C06B8038}" path="FilterHouseBL.tcKDTest" />
+						<child name="FilterETD" key="{0962CC3C-57DD-4479-88A7-CE3E88A6A324}" path="FilterETD.tcKDTest" />
+						<child name="FilterETA" key="{E5311F0B-3A99-43B9-A270-9663E27CAD56}" path="FilterETA.tcKDTest" />
+						<child name="FilterAccountManager" key="{B4515394-E216-4238-95B3-BD64EDA5816A}" path="FilterAccountManager.tcKDTest" />
+						<child name="FilterProduct" key="{5D23E153-B7AC-4899-BAA1-2F91B66C9F4F}" path="FilterProduct.tcKDTest" />
+						<child name="FilterSort" key="{84F8B4DE-23BF-492E-B398-23C3F573A3D9}" path="FilterSort.tcKDTest" />
+						<child name="FilterVessel" key="{DF52A560-6C2E-4D85-A90D-2D0638791F0C}" path="FilterVessel.tcKDTest" />
+					</folder>
 					<child name="VerifyBookedQuoteHUB" key="{BE5C204D-FD5F-4EA1-A57D-141D56728D68}" path="VerifyBookedQuoteHUB.tcKDTest" />
 					<child name="VerifyRequestedQuoteHUB" key="{F8828B3B-E642-4C6E-81EE-7830D782BEEA}" path="VerifyRequestedQuoteHUB.tcKDTest" />
 				</folder>
