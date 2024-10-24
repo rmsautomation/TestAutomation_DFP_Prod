@@ -194,6 +194,12 @@
 				<Variable Name="new_offers" Type="String" Local="False">
 					<DefValue StrValue="0" />
 				</Variable>
+				<Variable Name="usernameHubNoINT" Type="String" Local="False">
+					<DefValue StrValue="aylin.rodriguez@magaya.com" />
+				</Variable>
+				<Variable Name="passwordHubNoINT" Type="String" Local="False">
+					<DefValue StrValue="testing123." />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
