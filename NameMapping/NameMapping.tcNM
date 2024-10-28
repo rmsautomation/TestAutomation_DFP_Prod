@@ -8636,6 +8636,116 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionMyPortal" Key="{B94521DD-53BE-4E41-ABAD-659EFF22BB05}">
+										<Image FileName="1878080804" Left="220" Top="121" Right="1903" Bottom="1084" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;My Portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNumber" Key="{D9C7A591-2CAB-49AE-8067-565E677CFC96}">
+										<Image FileName="1603655485" Left="477" Top="384" Right="1647" Bottom="496" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Number&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-index-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuo01067" Key="{458DA36C-E41F-482E-92D7-8AA038EB7E3E}">
+										<Image FileName="1603655485" Left="477" Top="424" Right="1647" Bottom="497" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;QUO-01067&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;list-group-item-action&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreated" Key="{7C0C2EFF-2C74-4937-8075-420D0024A9E1}">
+										<Image FileName="1603655485" Left="642" Top="448" Right="731" Bottom="472" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Created&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSummary" Key="{C8696F25-3634-4C15-A892-C03649DF7443}">
+										<Image FileName="757521945" Left="477" Top="328" Right="1647" Bottom="373" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Summary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOffers" Key="{088EEB6E-7896-419C-8AFC-D8E8F863286B}">
+										<Image FileName="757521945" Left="591" Top="332" Right="686" Bottom="372" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Offers&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeResults" Key="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}">
+										<Image FileName="985659531" Left="550" Top="346" Right="593" Bottom="364" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;results&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span[contains(@class, &apos;ng-tns-c350-21&apos;)]/span[contains(@class, &apos;ng-tns-c350-21&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRequestADifferentRate" Key="{F00322FB-BB44-4EBC-A779-77467DCD493F}">
+										<Image FileName="985659531" Left="367" Top="338" Right="1537" Bottom="376" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;d-flex&apos;)]/qwyk-quotation-result/div/div/div/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="offersNumber" Key="{671ACCBB-BC3B-40B7-916F-9CB1CFE00A26}">
+										<Image FileName="-992982011" Left="538" Top="345" Right="593" Bottom="367" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;text-muted&apos;) and .//span[normalize-space(text())=&apos;results&apos;]]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -10228,6 +10338,19 @@
 					<Child Name="passwordboxPassword" Owner="{9B23EFD3-D249-4E05-892B-23C1DDB19B52}" />
 					<Child Name="buttonSignIn" Owner="{708388E4-9560-434E-8079-7917AAA55791}" />
 				</Child>
+				<Child Name="sectionMyPortal" Owner="{B94521DD-53BE-4E41-ABAD-659EFF22BB05}">
+					<Child Name="textnodeNumber" Owner="{D9C7A591-2CAB-49AE-8067-565E677CFC96}">
+						<Child Name="textnodeQuo01067" Owner="{458DA36C-E41F-482E-92D7-8AA038EB7E3E}">
+							<Child Name="textnodeCreated" Owner="{7C0C2EFF-2C74-4937-8075-420D0024A9E1}" />
+						</Child>
+					</Child>
+					<Child Name="navSummary" Owner="{C8696F25-3634-4C15-A892-C03649DF7443}">
+						<Child Name="linkOffers" Owner="{088EEB6E-7896-419C-8AFC-D8E8F863286B}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
+				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
+				<Child Name="offersNumber" Owner="{671ACCBB-BC3B-40B7-916F-9CB1CFE00A26}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
