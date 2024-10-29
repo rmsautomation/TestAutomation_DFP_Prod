@@ -58,6 +58,7 @@
 						<child name="SelectPartialLoad" key="{27FE0BC0-7CA0-45BE-9062-F9B55B2C5580}" path="SelectPartialLoad.tcKDTest" />
 						<child name="CreateNewOffer" key="{472D81C5-E525-4035-8FCF-8F7A7896E0EF}" path="CreateNewOffer.tcKDTest" />
 						<child name="SearchQuoteIDHUB" key="{2A8B501E-C2D4-4159-83ED-425A52C6DFB7}" path="SearchQuoteIDHUB.tcKDTest" />
+						<child name="DownloadPDFVerifyNote" key="{81990D2C-AE69-431D-BE54-9072109EC4A6}" path="DownloadPDFVerifyNote.tcKDTest" />
 					</folder>
 					<folder name="Filters">
 						<child name="FilterCompletedStatus" key="{1FA2E623-2625-40B6-8F99-34D054437A9F}" path="FilterCompletedStatus.tcKDTest" />
