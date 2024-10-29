@@ -2794,10 +2794,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Aylin_test&apos;)]" />
+												<Value Value="//tr/td/div[contains(@class, &apos;small&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//tr/td/div[contains(@class, &apos;small&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;Aylin_test&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//table[@id=&apos;pr_id_1-table&apos;]//tr/td/div" />
@@ -3958,6 +3958,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//ngb-datepicker-month/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaQuotationRemarks" Key="{F4A55655-16B8-4C1F-94D5-D67BA11DA3FA}">
+										<Image FileName="484292323" Left="239" Top="783" Right="1713" Bottom="901" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@id=(//label[.=&apos;Quotation Remarks&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#remarks" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9492,6 +9507,37 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}">
+								<Image FileName="381201616" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.qwykportals.com/quotations/9d5ab2bc-b5bd-44ef-b534-1d9d9881fb75/offers/new" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonSaveOffer" Key="{95AE99EB-716D-4689-8D3D-F6FD8133AB1B}">
+										<Image FileName="-706669651" Left="239" Top="923" Right="334" Bottom="959" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Save Offer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -9782,6 +9828,8 @@
 						<Child Name="panel12" Owner="{A0837FE7-C420-409D-9AEF-CE18CF313EAD}" />
 						<Child Name="calculation_drop" Owner="{3A8F57F1-E102-485F-B6BF-B139B95629F4}" />
 						<Child Name="panel13" Owner="{3D6B4DF6-71E9-490E-8225-F5B96F6D8360}" />
+						<Child Name="textareaQuotationRemarks" Owner="{F4A55655-16B8-4C1F-94D5-D67BA11DA3FA}" />
+						<Child Name="buttonSaveOffer2" Owner="{95AE99EB-716D-4689-8D3D-F6FD8133AB1B}" />
 					</Child>
 					<Child Name="buttonCreateNewOffer" Owner="{382F6E48-5113-48DE-9CA6-2061F04B2934}" />
 				</Child>
@@ -10412,6 +10460,7 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}" />
 		</Child>
 	</LogicalNodes>
 </Root>
