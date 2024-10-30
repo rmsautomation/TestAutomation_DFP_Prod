@@ -2794,10 +2794,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[contains(text(), &apos;Aylin_test&apos;)]" />
+												<Value Value="//tr/td/div[contains(@class, &apos;small&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//tr/td/div[contains(@class, &apos;small&apos;)]" />
+												<Value Value="//div[contains(text(), &apos;Aylin_test&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//table[@id=&apos;pr_id_1-table&apos;]//tr/td/div" />
@@ -3958,6 +3958,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//ngb-datepicker-month/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaQuotationRemarks" Key="{F4A55655-16B8-4C1F-94D5-D67BA11DA3FA}">
+										<Image FileName="484292323" Left="239" Top="783" Right="1713" Bottom="901" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@id=(//label[.=&apos;Quotation Remarks&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#remarks" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -8156,6 +8171,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="canvas2" Key="{6721F425-A57B-43E3-932E-12DDE6BDEF1A}">
+										<Image FileName="2009992636" Left="74" Top="398" Right="968" Bottom="758" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//qwyk-quotation-value-graph-widget//p-chart//canvas" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="canvas3" Key="{397ECDBB-CD9D-4635-9ED8-82055A3BBDA5}">
+										<Image FileName="580012858" Left="74" Top="375" Right="505" Bottom="745" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div//qwyk-quotations-grouped-by-top-graph-widget//p-chart//canvas" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCsv" Key="{D7EA6562-FD84-4898-BC1E-549225353785}">
+										<Image FileName="1493561616" Left="87" Top="396" Right="1882" Bottom="433" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;p-d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-table/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu7" Key="{13709E7F-97C8-43B3-941F-A781CA1EC362}">
@@ -8633,6 +8678,188 @@
 											</Selector>
 											<Selector>
 												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-login-modal//qwyk-login-form/form/div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionMyPortal" Key="{B94521DD-53BE-4E41-ABAD-659EFF22BB05}">
+										<Image FileName="1878080804" Left="220" Top="121" Right="1903" Bottom="1084" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;My Portal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNumber" Key="{D9C7A591-2CAB-49AE-8067-565E677CFC96}">
+										<Image FileName="1603655485" Left="477" Top="384" Right="1647" Bottom="496" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Number&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotations-index-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuo01067" Key="{458DA36C-E41F-482E-92D7-8AA038EB7E3E}">
+										<Image FileName="1603655485" Left="477" Top="424" Right="1647" Bottom="497" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;QUO-01067&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;list-group-item-action&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCreated" Key="{7C0C2EFF-2C74-4937-8075-420D0024A9E1}">
+										<Image FileName="1603655485" Left="642" Top="448" Right="731" Bottom="472" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Created&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navSummary" Key="{C8696F25-3634-4C15-A892-C03649DF7443}">
+										<Image FileName="757521945" Left="477" Top="328" Right="1647" Bottom="373" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Summary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-detail-navs/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOffers" Key="{088EEB6E-7896-419C-8AFC-D8E8F863286B}">
+										<Image FileName="757521945" Left="591" Top="332" Right="686" Bottom="372" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Offers&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeResults" Key="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}">
+										<Image FileName="985659531" Left="550" Top="346" Right="593" Bottom="364" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;results&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span[contains(@class, &apos;ng-tns-c350-21&apos;)]/span[contains(@class, &apos;ng-tns-c350-21&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelRequestADifferentRate" Key="{F00322FB-BB44-4EBC-A779-77467DCD493F}">
+										<Image FileName="985659531" Left="367" Top="338" Right="1537" Bottom="376" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;d-flex&apos;)]/qwyk-quotation-result/div/div/div/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="offersNumber" Key="{671ACCBB-BC3B-40B7-916F-9CB1CFE00A26}">
+										<Image FileName="-992982011" Left="538" Top="345" Right="593" Bottom="367" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;text-muted&apos;) and .//span[normalize-space(text())=&apos;results&apos;]]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonBookNow" Key="{D4BB7059-4955-42ED-BAC1-052696A89D4F}">
+										<Image FileName="-1769020492" Left="1342" Top="497" Right="1460" Bottom="535" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-offer-card//div[3]//qwyk-quotation-book-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCharges" Key="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}">
+										<Image FileName="-376980303" Left="587" Top="771" Right="658" Bottom="793" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/qwyk-quotation-offer-card[2]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeModalBasicTitle" Key="{26BD6FC3-E3CE-4BD9-9A38-CB05489286A8}">
+										<Image FileName="-947154997" Left="585" Top="308" Right="760" Bottom="338" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#modal-basic-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[.=&apos;Terms and remarks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;modal-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-simple-modal/div/h5" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTermsAndRemarks" Key="{6293BB77-9C56-4159-93A9-9B4E5F61C850}">
+										<Image FileName="-1861014305" Left="0" Top="121" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="ngb-modal-window[contains(., &apos;Terms and remarks&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="ngb-modal-window[@role=&apos;dialog&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="ngb-modal-window[contains(@class, &apos;d-block&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="ngb-modal-window" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonConfirm" Key="{D4F57F1D-EDB4-4C8A-94EE-D6A7979E2979}">
+										<Image FileName="-1034010353" Left="1123" Top="801" Right="1228" Bottom="849" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Confirm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;confirm&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-simple-modal/div/button" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9382,6 +9609,37 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}">
+								<Image FileName="381201616" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.qwykportals.com/quotations/9d5ab2bc-b5bd-44ef-b534-1d9d9881fb75/offers/new" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonSaveOffer" Key="{95AE99EB-716D-4689-8D3D-F6FD8133AB1B}">
+										<Image FileName="-706669651" Left="239" Top="923" Right="334" Bottom="959" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Save Offer&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -9672,6 +9930,8 @@
 						<Child Name="panel12" Owner="{A0837FE7-C420-409D-9AEF-CE18CF313EAD}" />
 						<Child Name="calculation_drop" Owner="{3A8F57F1-E102-485F-B6BF-B139B95629F4}" />
 						<Child Name="panel13" Owner="{3D6B4DF6-71E9-490E-8225-F5B96F6D8360}" />
+						<Child Name="textareaQuotationRemarks" Owner="{F4A55655-16B8-4C1F-94D5-D67BA11DA3FA}" />
+						<Child Name="buttonSaveOffer2" Owner="{95AE99EB-716D-4689-8D3D-F6FD8133AB1B}" />
 					</Child>
 					<Child Name="buttonCreateNewOffer" Owner="{382F6E48-5113-48DE-9CA6-2061F04B2934}" />
 				</Child>
@@ -10162,6 +10422,9 @@
 					<Child Name="canvas" Owner="{B9590D30-656B-4EE2-9712-6612C3387046}" />
 					<Child Name="linkRankings" Owner="{BE5D7611-7EA8-4241-9638-4E3126BEB534}" />
 					<Child Name="linkDataTable" Owner="{24795E57-3D3E-45A0-A257-6ADC4AF53FD8}" />
+					<Child Name="canvas2" Owner="{6721F425-A57B-43E3-932E-12DDE6BDEF1A}" />
+					<Child Name="canvas3" Owner="{397ECDBB-CD9D-4635-9ED8-82055A3BBDA5}" />
+					<Child Name="panelCsv" Owner="{D7EA6562-FD84-4898-BC1E-549225353785}" />
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu7" Owner="{13709E7F-97C8-43B3-941F-A781CA1EC362}">
@@ -10228,6 +10491,24 @@
 					<Child Name="passwordboxPassword" Owner="{9B23EFD3-D249-4E05-892B-23C1DDB19B52}" />
 					<Child Name="buttonSignIn" Owner="{708388E4-9560-434E-8079-7917AAA55791}" />
 				</Child>
+				<Child Name="sectionMyPortal" Owner="{B94521DD-53BE-4E41-ABAD-659EFF22BB05}">
+					<Child Name="textnodeNumber" Owner="{D9C7A591-2CAB-49AE-8067-565E677CFC96}">
+						<Child Name="textnodeQuo01067" Owner="{458DA36C-E41F-482E-92D7-8AA038EB7E3E}">
+							<Child Name="textnodeCreated" Owner="{7C0C2EFF-2C74-4937-8075-420D0024A9E1}" />
+						</Child>
+					</Child>
+					<Child Name="navSummary" Owner="{C8696F25-3634-4C15-A892-C03649DF7443}">
+						<Child Name="linkOffers" Owner="{088EEB6E-7896-419C-8AFC-D8E8F863286B}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
+				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
+				<Child Name="offersNumber" Owner="{671ACCBB-BC3B-40B7-916F-9CB1CFE00A26}" />
+				<Child Name="buttonBookNow" Owner="{D4BB7059-4955-42ED-BAC1-052696A89D4F}" />
+				<Child Name="linkCharges" Owner="{F52A3D37-886E-45BD-BBF1-00142CBA7CDA}" />
+				<Child Name="textnodeModalBasicTitle" Owner="{26BD6FC3-E3CE-4BD9-9A38-CB05489286A8}" />
+				<Child Name="textnodeTermsAndRemarks" Owner="{6293BB77-9C56-4159-93A9-9B4E5F61C850}" />
+				<Child Name="buttonConfirm" Owner="{D4F57F1D-EDB4-4C8A-94EE-D6A7979E2979}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -10289,6 +10570,7 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}" />
 		</Child>
 	</LogicalNodes>
 </Root>
