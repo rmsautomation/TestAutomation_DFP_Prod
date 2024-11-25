@@ -8005,6 +8005,38 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionGoodAfternoonAylin" Key="{660EED69-1BF6-4EFE-AD85-E128D63CFD3F}">
+										<Image FileName="1356599709" Left="50" Top="173" Right="1920" Bottom="805" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Good afternoon, Aylin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubhomepagewelcometitle" Key="{C19DB9D7-281D-4232-8428-C766BC0EBC4B}">
+										<Image FileName="1356599709" Left="96" Top="250" Right="470" Bottom="288" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubHomepageWelcomeTitle" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(text(), &apos;Good afternoon, Aylin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(@class, &apos;ng-tns-c361-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu6" Key="{59F1418C-E2FC-48E2-936B-349855225F6D}">
@@ -9640,6 +9672,186 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu3" Key="{092C5798-FE81-450D-A22F-2C9B1827993D}">
+								<Image FileName="-1579171892" Left="0" Top="173" Right="1920" Bottom="805" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.qwykportals.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="headerHubheader" Key="{1346D13C-8DB4-483C-97D7-46C9AEF628B1}">
+										<Image FileName="-1579171892" Left="0" Top="173" Right="1920" Bottom="227" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubHeader" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubnavbar" Key="{A6DCAAFB-9B05-4467-AB9A-31B15C638E29}">
+										<Image FileName="-1579171892" Left="1763" Top="173" Right="1905" Bottom="227" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;hubHeader&apos;]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubnavbarprofileitem" Key="{D3C1B6BC-157D-458A-8AC0-A2EC5123EE6E}">
+										<Image FileName="-1579171892" Left="1837" Top="173" Right="1905" Bottom="227" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbarProfileItem" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-root/app-index-new/header[@id=&apos;hubHeader&apos;]//ul/li[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonHubnavbarprofileitembutton" Key="{C2D3FC69-8A27-4EB8-812D-C9DB6BC6936B}">
+										<Image FileName="-1579171892" Left="1840" Top="181" Right="1901" Bottom="218" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbarProfileItemButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;dropdown-toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;hubNavbarProfileItem&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonHubnavbarlogoutlistbutton" Key="{6E667D7C-7D2F-43F2-8343-99EFA623CB04}">
+										<Image FileName="-1340768756" Left="1636" Top="352" Right="1901" Bottom="390" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbarLogoutListButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log out&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogInMagayaDfp" Key="{84D3005C-26ED-43C6-8451-E3CD1C89FC64}">
+								<Image FileName="-1579171892" Left="0" Top="173" Right="1920" Bottom="805" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magaya-prod.us.auth0.com/u/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionWelcome" Key="{57C25860-47D4-4A59-8AE1-382ED6B027F5}">
+										<Image FileName="1200847434" Left="752" Top="253" Right="1152" Bottom="793" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;c05158eaf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formEmailAddress" Key="{79BD57EE-216C-4D3A-BDE7-C907E431C291}">
+										<Image FileName="1200847434" Left="792" Top="503" Right="1112" Bottom="734" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;c9854873e&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{6DC04100-B9AA-47D7-94C3-EB88A795C394}">
+										<Image FileName="1200847434" Left="792" Top="503" Right="1112" Bottom="555" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Email address&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{20EBB31F-15A9-43C4-92C1-AFBD30D48162}">
+										<Image FileName="-1996679917" Left="793" Top="568" Right="1067" Bottom="620" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Password&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAction" Key="{65D83347-C1A9-4BF0-8CD2-F927B8F4D698}">
+										<Image FileName="-455384289" Left="792" Top="682" Right="1112" Bottom="734" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;action&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;default&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;c0a486a03&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -10412,6 +10624,9 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="sectionGoodAfternoonAylin" Owner="{660EED69-1BF6-4EFE-AD85-E128D63CFD3F}">
+					<Child Name="textnodeHubhomepagewelcometitle" Owner="{C19DB9D7-281D-4232-8428-C766BC0EBC4B}" />
+				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu6" Owner="{59F1418C-E2FC-48E2-936B-349855225F6D}">
 				<Child Name="sectionSalesRadar" Owner="{86563773-BA11-4C47-B35F-6B9AAC900ADE}">
@@ -10571,6 +10786,25 @@
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu3" Owner="{092C5798-FE81-450D-A22F-2C9B1827993D}">
+				<Child Name="headerHubheader" Owner="{1346D13C-8DB4-483C-97D7-46C9AEF628B1}">
+					<Child Name="textnodeHubnavbar" Owner="{A6DCAAFB-9B05-4467-AB9A-31B15C638E29}">
+						<Child Name="textnodeHubnavbarprofileitem" Owner="{D3C1B6BC-157D-458A-8AC0-A2EC5123EE6E}">
+							<Child Name="buttonHubnavbarprofileitembutton" Owner="{C2D3FC69-8A27-4EB8-812D-C9DB6BC6936B}" />
+							<Child Name="buttonHubnavbarlogoutlistbutton" Owner="{6E667D7C-7D2F-43F2-8343-99EFA623CB04}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLogInMagayaDfp" Owner="{84D3005C-26ED-43C6-8451-E3CD1C89FC64}">
+				<Child Name="sectionWelcome" Owner="{57C25860-47D4-4A59-8AE1-382ED6B027F5}">
+					<Child Name="formEmailAddress" Owner="{79BD57EE-216C-4D3A-BDE7-C907E431C291}">
+						<Child Name="textboxEmailAddress" Owner="{6DC04100-B9AA-47D7-94C3-EB88A795C394}" />
+						<Child Name="passwordboxPassword" Owner="{20EBB31F-15A9-43C4-92C1-AFBD30D48162}" />
+						<Child Name="buttonAction" Owner="{65D83347-C1A9-4BF0-8CD2-F927B8F4D698}" />
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
