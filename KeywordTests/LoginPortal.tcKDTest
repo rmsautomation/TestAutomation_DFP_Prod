@@ -130,7 +130,7 @@
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="password" />
+						<Parameter Name="Text" DefVarType="8" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqEnvironment.GetEnvironmentVariable(&quot;PORTAL_PASS_PROD_INT&quot;)" />
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.chrome2.pageMagayaQaDfp.formSignInToYourAccount.passwordboxPassword;" />
 				</Data>
@@ -144,6 +144,5 @@
 	</TestData>
 	<Parameters Key="{354A0CCA-5301-4C68-AE84-C0F9133C47AE}">
 		<Parameter0 Name="username" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="aylinprod" Description="" />
-		<Parameter1 Name="password" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="aylinprod" Description="" />
 	</Parameters>
 </Root>
