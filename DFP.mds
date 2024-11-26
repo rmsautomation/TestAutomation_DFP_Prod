@@ -206,6 +206,9 @@
 				<Variable Name="quoteHubNumber" Type="String" Local="False">
 					<DefValue StrValue="0" />
 				</Variable>
+				<Variable Name="now" Type="String" Local="True">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
