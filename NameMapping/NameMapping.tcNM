@@ -8944,16 +8944,7 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//li[.=&apos;ABC Entity Inc&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//p-dropdownitem/li[@role=&apos;option&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//p-dropdownitem/li[contains(@class, &apos;p-ripple&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//p-dropdownitem/li" />
+												<Value Value="xpath=//div[@class=&apos;p-multiselect-label p-placeholder&apos; and text()=&apos;Account manager&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
