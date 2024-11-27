@@ -229,7 +229,7 @@
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageMagayaDigitalFreightPortalHu6.sectionSalesRadar.panelCsv" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
 						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
-						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="4300530056000A0045007800630065006C000A0032003100200063006F006C0075006D006E0073002000730065006C0065006300740065006400" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="CSV" />
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
