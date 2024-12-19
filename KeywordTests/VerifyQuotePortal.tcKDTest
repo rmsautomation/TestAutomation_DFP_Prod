@@ -172,6 +172,7 @@
 			</Operation>
 			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<CommonData Disabled="True" />
 					<Root Type="1" Operator="0">
 						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.quoteHubNumber == Project.Variables.offers_number" />
 						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
@@ -201,7 +202,9 @@
 				</Children>
 			</Operation>
 			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
-				<Data />
+				<Data>
+					<CommonData Disabled="True" />
+				</Data>
 				<Children>
 					<Operation Type="{792A19F3-4764-463F-B326-ECE40D9596DB}">
 						<Data Description="Stops running the project tests and posts the specified error string to the log.">

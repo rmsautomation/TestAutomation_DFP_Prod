@@ -30,7 +30,7 @@
     if (expected_price === final_priceNumber) {
         Log.Message("The sum is correct: " + expected_price);
     } else {
-        Log.Error("The sum is incorrect. Expected: " + final_price + ", but got: " + expected_price);
+        Log.Error("The sum is incorrect. Expected: " + final_priceNumber + ", but got: " + expected_price);
     }
 }
 
