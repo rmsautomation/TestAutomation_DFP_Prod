@@ -3976,6 +3976,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel28" Key="{CBDC4146-4E21-49EA-97EA-D1D1F9C6383E}">
+										<Image FileName="781105714" Left="1301" Top="535" Right="1331" Bottom="565" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;28&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div[2]/div[contains(@class, &apos;btn-light&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya" Key="{5B0E1FE1-A618-4740-933C-B8CDDB63F4B1}">
@@ -10135,6 +10147,7 @@
 						<Child Name="panel13" Owner="{3D6B4DF6-71E9-490E-8225-F5B96F6D8360}" />
 						<Child Name="textareaQuotationRemarks" Owner="{F4A55655-16B8-4C1F-94D5-D67BA11DA3FA}" />
 						<Child Name="buttonSaveOffer2" Owner="{95AE99EB-716D-4689-8D3D-F6FD8133AB1B}" />
+						<Child Name="panel28" Owner="{CBDC4146-4E21-49EA-97EA-D1D1F9C6383E}" />
 					</Child>
 					<Child Name="buttonCreateNewOffer" Owner="{382F6E48-5113-48DE-9CA6-2061F04B2934}" />
 				</Child>
