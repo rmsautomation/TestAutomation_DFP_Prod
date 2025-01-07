@@ -3976,6 +3976,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel28" Key="{CBDC4146-4E21-49EA-97EA-D1D1F9C6383E}">
+										<Image FileName="781105714" Left="1301" Top="535" Right="1331" Bottom="565" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;28&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]/div[2]/div[contains(@class, &apos;btn-light&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya" Key="{5B0E1FE1-A618-4740-933C-B8CDDB63F4B1}">
@@ -9630,6 +9642,75 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="button2025" Key="{B071F35D-9823-4DC2-B5D5-27453198C888}">
+										<Image FileName="-796984018" Left="318" Top="515" Right="368" Bottom="561" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-year&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2024" Key="{1FE7DC9B-CC41-4B43-B52D-D1F1C02CDA5E}">
+										<Image FileName="-883127398" Left="99" Top="638" Right="304" Bottom="674" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonJanuary" Key="{64DFFD91-8853-46D5-A73B-F087C85B2DC0}">
+										<Image FileName="-2055512021" Left="688" Top="595" Right="759" Bottom="641" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;January&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-month&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJan" Key="{323B43B1-3669-493C-BAD6-933A77FB85FE}">
+										<Image FileName="1148689029" Left="547" Top="662" Right="684" Bottom="698" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Jan&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{0A90E2A2-7B17-4E44-B41A-C2887835D6CC}">
+										<Image FileName="-192741579" Left="616" Top="760" Right="654" Bottom="798" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2025" Key="{9049361F-4948-4F1E-9454-A2C726C221CF}">
+										<Image FileName="-1153822270" Left="752" Top="440" Right="957" Bottom="476" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}">
@@ -10135,6 +10216,7 @@
 						<Child Name="panel13" Owner="{3D6B4DF6-71E9-490E-8225-F5B96F6D8360}" />
 						<Child Name="textareaQuotationRemarks" Owner="{F4A55655-16B8-4C1F-94D5-D67BA11DA3FA}" />
 						<Child Name="buttonSaveOffer2" Owner="{95AE99EB-716D-4689-8D3D-F6FD8133AB1B}" />
+						<Child Name="panel28" Owner="{CBDC4146-4E21-49EA-97EA-D1D1F9C6383E}" />
 					</Child>
 					<Child Name="buttonCreateNewOffer" Owner="{382F6E48-5113-48DE-9CA6-2061F04B2934}" />
 				</Child>
@@ -10775,6 +10857,12 @@
 						<Child Name="panelBookingDate" Owner="{5EC458E7-3848-43A5-95F7-678888F31B08}" />
 					</Child>
 				</Child>
+				<Child Name="button2025" Owner="{B071F35D-9823-4DC2-B5D5-27453198C888}" />
+				<Child Name="textnode2024" Owner="{1FE7DC9B-CC41-4B43-B52D-D1F1C02CDA5E}" />
+				<Child Name="buttonJanuary" Owner="{64DFFD91-8853-46D5-A73B-F087C85B2DC0}" />
+				<Child Name="textnodeJan" Owner="{323B43B1-3669-493C-BAD6-933A77FB85FE}" />
+				<Child Name="textnode6" Owner="{0A90E2A2-7B17-4E44-B41A-C2887835D6CC}" />
+				<Child Name="textnode2025" Owner="{9049361F-4948-4F1E-9454-A2C726C221CF}" />
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu3" Owner="{092C5798-FE81-450D-A22F-2C9B1827993D}">
