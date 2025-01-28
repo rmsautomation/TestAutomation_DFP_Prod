@@ -6,5 +6,6 @@
 		<child name="OpenDownloadCSV" key="{8B5E3DB8-0BA4-4BC1-9F35-6C91BF6B2C7A}" path="OpenDownloadCSV.js" />
 		<child name="VerifyFilterShipmentsPortal" key="{B4A53D26-0AD6-4AD1-801D-FD0AFFB790FF}" path="VerifyFilterShipmentsPortal.js" />
 		<child name="Event_OnLogWarning" key="{747AA951-16F5-4825-9D81-16C136E6A454}" path="Event_OnLogWarning.js" />
+		<child name="FailTest" key="{2E912377-3CEB-48AE-B1FF-C7082397AA0B}" path="FailTest.js" />
 	</children>
 </Root>
