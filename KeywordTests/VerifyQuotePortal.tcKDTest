@@ -331,10 +331,10 @@
 							</Parameters>
 						</Data>
 					</Operation>
+					<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+						<Data Description="Runs a script routine." TestName="FailTest" Unit="FailTest" />
+					</Operation>
 				</Children>
-			</Operation>
-			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
-				<Data Description="Runs a script routine." TestName="FailTest" Unit="FailTest" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="LogoutPOrtal" />
