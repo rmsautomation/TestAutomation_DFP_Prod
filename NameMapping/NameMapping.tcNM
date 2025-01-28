@@ -8049,6 +8049,72 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="headerHubheader" Key="{B7B724D8-4CAA-4F1F-8DC6-C1460F361F77}">
+										<Image FileName="1086369184" Left="0" Top="139" Right="1920" Bottom="193" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubHeader" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;User: aylin.rodriguez@magaya.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubnavbar" Key="{552767F5-033C-41E1-A523-3D0B6B382503}">
+										<Image FileName="1086369184" Left="1763" Top="139" Right="1905" Bottom="193" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;User: aylin.rodriguez@magaya.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{9FC21D3E-E2AD-48EB-82D8-328B968F6FB3}">
+										<Image FileName="1086369184" Left="1661" Top="348" Right="1899" Bottom="384" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]/div/a[contains(@class, &apos;p-menuitem-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;hubHeader&apos;]//ul/p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogOut" Key="{3F2C8654-3634-490A-8EFA-137BFFF8D3A2}">
+										<Image FileName="1086369184" Left="1705" Top="358" Right="1752" Bottom="375" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span[contains(@class, &apos;ng-tns-c1201608176-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu6" Key="{59F1418C-E2FC-48E2-936B-349855225F6D}">
@@ -10699,6 +10765,13 @@
 				</Child>
 				<Child Name="sectionGoodAfternoonAylin" Owner="{660EED69-1BF6-4EFE-AD85-E128D63CFD3F}">
 					<Child Name="textnodeHubhomepagewelcometitle" Owner="{C19DB9D7-281D-4232-8428-C766BC0EBC4B}" />
+				</Child>
+				<Child Name="headerHubheader" Owner="{B7B724D8-4CAA-4F1F-8DC6-C1460F361F77}">
+					<Child Name="textnodeHubnavbar" Owner="{552767F5-033C-41E1-A523-3D0B6B382503}">
+						<Child Name="linkLogOut" Owner="{9FC21D3E-E2AD-48EB-82D8-328B968F6FB3}">
+							<Child Name="textnodeLogOut" Owner="{3F2C8654-3634-490A-8EFA-137BFFF8D3A2}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu6" Owner="{59F1418C-E2FC-48E2-936B-349855225F6D}">
