@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -621,7 +621,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1019,7 +1019,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/list" />
+										<Value Value="https://*.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1071,7 +1071,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/new" />
+										<Value Value="https://*.qwykportals.com/quotations/new" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1707,7 +1707,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1876,7 +1876,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1934,7 +1934,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2059,7 +2059,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/*" />
+										<Value Value="https://*.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4004,7 +4004,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/quotations" />
+										<Value Value="https://*.qwykportals.com/my-portal/quotations" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4353,7 +4353,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/*" />
+										<Value Value="https://*.qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4635,7 +4635,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5596,7 +5596,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/*" />
+										<Value Value="https://*.qwykportals.com/my-portal/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5906,7 +5906,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5952,7 +5952,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6024,7 +6024,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/list" />
+										<Value Value="https://*.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6260,7 +6260,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/quotations" />
+										<Value Value="https://*.qwykportals.com/my-portal/quotations" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6331,7 +6331,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/shipments/list" />
+										<Value Value="https://*.qwykportals.com/my-portal/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6499,7 +6499,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6549,7 +6549,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/booking/new/*" />
+										<Value Value="https://*.qwykportals.com/my-portal/booking/new/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6841,7 +6841,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6906,7 +6906,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/quotation/*" />
+										<Value Value="https://*.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7063,7 +7063,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/shipments/*" />
+										<Value Value="https://*.qwykportals.com/my-portal/shipments/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7277,7 +7277,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/shipments/*" />
+										<Value Value="https://*.qwykportals.com/my-portal/shipments/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7323,7 +7323,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/shipments/list" />
+										<Value Value="https://*.qwykportals.com/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7760,7 +7760,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/user/profile" />
+										<Value Value="https://*.qwykportals.com/user/profile" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7828,7 +7828,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/quotations/list" />
+										<Value Value="https://*.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7953,7 +7953,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8131,7 +8131,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/radar/sales" />
+										<Value Value="https://*.qwykportals.com/radar/sales" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8326,7 +8326,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/radar" />
+										<Value Value="https://*.qwykportals.com/radar" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8482,7 +8482,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8547,7 +8547,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/my-portal/dashboard*" />
+										<Value Value="https://*.qwykportals.com/my-portal/dashboard*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8631,7 +8631,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.qwykportals.com/*" />
+										<Value Value="https://*.qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8999,7 +8999,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/shipments/list" />
+										<Value Value="https://*.qwykportals.com/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -9823,7 +9823,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.qwykportals.com/" />
+										<Value Value="https://*.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
