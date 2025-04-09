@@ -111,7 +111,7 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="url_EnvironmentPortal" Type="String" Local="False">
-					<DefValue StrValue="https://qwyk.new-cluster.qwykportals.com/" />
+					<DefValue StrValue="https://magaya-qadfp.new-cluster.qwykportals.com/" />
 				</Variable>
 				<Variable Name="notification" Type="String" Local="False">
 					<DefValue />
