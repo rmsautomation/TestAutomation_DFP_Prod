@@ -8361,6 +8361,27 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="textnodePortalUsers" Key="{99603233-8992-49A7-BBDB-D36073566D50}">
+								<Image FileName="-476846989" Left="65" Top="199" Right="211" Bottom="231" />
+								<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+								<Selectors>
+									<Selector>
+										<Value Value="xpath=//div[h3[text()=&apos;Portal Users&apos;]]" />
+									</Selector>
+									<Selector>
+										<Value Value="xpath=//h3[normalize-space()=&apos;Portal Users&apos;]" />
+									</Selector>
+									<Selector>
+										<Value Value="//h3[.=&apos;Portal Users&apos;]" Enabled="False" />
+									</Selector>
+									<Selector>
+										<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" Enabled="False" />
+									</Selector>
+									<Selector>
+										<Value Value="//h3" Enabled="False" />
+									</Selector>
+								</Selectors>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{2B5F5DD0-6C6A-4C01-8392-67C38AED2AF7}">
@@ -8976,6 +8997,20 @@
 											</Selector>
 											<Selector>
 												<Value Value="//qwyk-simple-modal/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionQwyk" Key="{9A9A5846-C6B7-46EA-B025-94EFC71314D0}">
+										<Image FileName="-476846989" Left="50" Top="87" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -10803,6 +10838,7 @@
 					<Child Name="panelSalesRadar" Owner="{3AB8638E-F765-41C3-8C39-9CC4E953DC1C}" />
 				</Child>
 			</Child>
+			<Child Name="textnodePortalUsers" Owner="{99603233-8992-49A7-BBDB-D36073566D50}" />
 		</Child>
 		<Child Name="explorer" Owner="{2B5F5DD0-6C6A-4C01-8392-67C38AED2AF7}">
 			<Child Name="wndShell_TrayWnd" Owner="{910C0DAB-BCCB-4418-ABBD-27987DB9B5B5}">
@@ -10876,6 +10912,7 @@
 				<Child Name="textnodeModalBasicTitle" Owner="{26BD6FC3-E3CE-4BD9-9A38-CB05489286A8}" />
 				<Child Name="textnodeTermsAndRemarks" Owner="{6293BB77-9C56-4159-93A9-9B4E5F61C850}" />
 				<Child Name="buttonConfirm" Owner="{D4F57F1D-EDB4-4C8A-94EE-D6A7979E2979}" />
+				<Child Name="sectionQwyk" Owner="{9A9A5846-C6B7-46EA-B025-94EFC71314D0}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">

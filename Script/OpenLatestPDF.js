@@ -44,7 +44,8 @@
       shell.Run('"' + pdfPath + '"');  // Open the PDF file
 
       // Convert the PDF content to text
-      var contents = PDF.ConvertToText(pdfPath);
+      var contentsAll =PDF.ConvertToText(pdfPath);
+      var contents = contentsAll.replace(/\n/g, " ");
 
       if (contents !== "") {
         // Variables to search for
