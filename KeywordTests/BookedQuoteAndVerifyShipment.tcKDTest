@@ -23,6 +23,7 @@
 		<Children>
 			<Operation Type="{BE98E2BD-F90C-4DA4-8914-6D6246ED3CAC}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<CommonData Disabled="True" />
 					<Root Type="1" Operator="0">
 						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageMagaya7.buttonBookNow.Exists" />
 						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="False" />
@@ -58,7 +59,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<CommonData WaitTimeout="140000" />
+					<CommonData WaitTimeout="180000" />
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageMagaya7.buttonBookNow;" />
 				</Data>
 			</Operation>
