@@ -9818,6 +9818,88 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vg5" Key="{E2BCCFC5-2E65-4D61-A9C3-1ED61095E551}">
+										<Image FileName="591186332" Left="1395" Top="595" Right="1410" Bottom="610" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div/div[15]/p-multiselect//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;account_manager_ids&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[15]/p-multiselect//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSearchbox" Key="{9C5C81CE-4386-475B-9819-C908AD2F7838}">
+										<Image FileName="1070418726" Left="1024" Top="628" Right="1377" Bottom="664" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@role=&apos;searchbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;p-multiselect-filter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYiselObiolMagaya" Key="{346F0B58-0521-45BB-A4A6-0E5630D5BA76}">
+										<Image FileName="1113892528" Left="984" Top="671" Right="1421" Bottom="705" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Yisel Obiol Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-multiselect-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYiselObiolMagaya2" Key="{27EC03B3-F3FD-4286-AE20-4BC356EE1233}">
+										<Image FileName="1113892528" Left="984" Top="671" Right="1421" Bottom="705" />
+										<Selectors>
+											<Selector>
+												<Value Value="#account_manager_ids_0" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Yisel Obiol Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-multiselectitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{B517E1F7-EC6B-4C9B-857C-FDA53D9AFE77}">
+										<Image FileName="1113892528" Left="997" Top="678" Right="1017" Bottom="698" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/div/div[contains(@class, &apos;p-checkbox-box&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;account_manager_ids_0&apos;]//div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}">
@@ -10945,6 +11027,7 @@
 						<Child Name="panelUpdated" Owner="{E76EA13A-7363-4226-9637-D4BC435AECB3}" />
 						<Child Name="buttonDescending" Owner="{3E37FAE0-732F-430B-ADBD-6049E888E5C9}" />
 						<Child Name="textboxVessel" Owner="{07898979-BF9F-4753-AC3E-7D3B3895F23F}" />
+						<Child Name="vg5" Owner="{E2BCCFC5-2E65-4D61-A9C3-1ED61095E551}" />
 					</Child>
 				</Child>
 				<Child Name="panelAbcEntityInc" Owner="{F7B5EA96-6C8C-4623-9609-4D3C398F71AB}" />
@@ -10979,6 +11062,12 @@
 				<Child Name="textnodeJan" Owner="{323B43B1-3669-493C-BAD6-933A77FB85FE}" />
 				<Child Name="textnode6" Owner="{0A90E2A2-7B17-4E44-B41A-C2887835D6CC}" />
 				<Child Name="textnode2025" Owner="{9049361F-4948-4F1E-9454-A2C726C221CF}" />
+				<Child Name="textboxSearchbox" Owner="{9C5C81CE-4386-475B-9819-C908AD2F7838}" />
+				<Child Name="textnodeYiselObiolMagaya" Owner="{346F0B58-0521-45BB-A4A6-0E5630D5BA76}">
+					<Child Name="textnodeYiselObiolMagaya2" Owner="{27EC03B3-F3FD-4286-AE20-4BC356EE1233}">
+						<Child Name="panel2" Owner="{B517E1F7-EC6B-4C9B-857C-FDA53D9AFE77}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu3" Owner="{092C5798-FE81-450D-A22F-2C9B1827993D}">

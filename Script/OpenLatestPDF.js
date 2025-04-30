@@ -46,6 +46,7 @@
       // Convert the PDF content to text
       var contentsAll =PDF.ConvertToText(pdfPath);
       var contents = contentsAll.replace(/\n/g, " ");
+      var contents = contentsAll.replace(/\n/g, " ").replace(/ Commodity/g, "");
 
       if (contents !== "") {
         // Variables to search for
