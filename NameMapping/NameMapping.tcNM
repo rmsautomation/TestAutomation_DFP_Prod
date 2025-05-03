@@ -1010,6 +1010,84 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeCopyQuotation" Key="{ED5085BA-7472-4867-8EF9-1A784211017F}">
+										<Image FileName="715575478" Left="1684" Top="254" Right="1841" Bottom="356" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Copy quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCopyQuotation2" Key="{3087B4A2-9391-43B2-B2D4-FC9D848E8BF3}">
+										<Image FileName="715575478" Left="1684" Top="254" Right="1841" Bottom="283" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Copy quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li[contains(@class, &apos;nav-item&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCopyQuotation" Key="{233EBEB8-5663-4339-8659-6BB87F5AC60D}">
+										<Image FileName="715575478" Left="1699" Top="258" Right="1826" Bottom="279" />
+										<TypeInfo Item0="{D3C2C6BB-DEEA-4DE3-92D1-6A940332AFCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Copy quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;p-0&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDeleteQuotation" Key="{6C61B018-6B26-443E-A7A4-305EE871BCE3}">
+										<Image FileName="1280193993" Left="1684" Top="283" Right="1845" Bottom="312" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Delete quotation&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkDeleteQuotation" Key="{98E06EE9-5523-4071-AB86-BC7DF627E689}">
+										<Image FileName="1280193993" Left="1699" Top="286" Right="1830" Bottom="307" />
+										<TypeInfo Item0="{D3C2C6BB-DEEA-4DE3-92D1-6A940332AFCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Delete quotation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a[contains(@class, &apos;p-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCloseQuotation" Key="{24E6E283-6B62-434A-85F2-3344D057F3C8}">
+										<Image FileName="28752120" Left="1684" Top="283" Right="1841" Bottom="312" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Close quotation&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageQuotationsMagayaDigitalFreig" Key="{212136FB-3B45-4743-9B00-0C8AC62E9D31}">
@@ -9014,6 +9092,108 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeEdit" Key="{26353370-BA1C-41BF-92DB-38A2133D2858}">
+										<Image FileName="-1033464984" Left="1682" Top="570" Right="1834" Bottom="606" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Edit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li[contains(@class, &apos;nav-item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEdit" Key="{5213DD47-4085-48B5-9F86-23BB02531BC8}">
+										<Image FileName="-1033464984" Left="1697" Top="574" Right="1818" Bottom="603" />
+										<TypeInfo Item0="{D3C2C6BB-DEEA-4DE3-92D1-6A940332AFCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Edit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li/a[contains(@class, &apos;p-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonChooseYear" Key="{A8E4F22A-9456-4A4F-A5C2-93D66EDB1FD4}">
+										<Image FileName="-895237419" Left="1478" Top="594" Right="1525" Bottom="640" />
+										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;2025&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-year&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2026" Key="{34D1F3FC-74B9-4C39-A452-D224CCD65D75}">
+										<Image FileName="332587786" Left="1252" Top="891" Right="1481" Bottom="927" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;2026&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCarrier" Key="{80A2ECEF-6A2A-42B2-9FFD-9E278CB90DF2}">
+										<Image FileName="-599509070" Left="248" Top="98" Right="1724" Bottom="1050" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-invalid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonChooseYear2" Key="{B8061E96-CACA-490F-83E9-9B6B276EDB33}">
+										<Image FileName="-599509070" Left="1478" Top="-73" Right="1525" Bottom="-27" />
+										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-year&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJan" Key="{02D2E4BA-1599-428E-B4A0-0AD3DF80B883}">
+										<Image FileName="-2038403380" Left="1252" Top="774" Right="1404" Bottom="810" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Jan&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{81A2D36E-77AC-4E1D-8DFC-35A0FFEF3B2F}">
+										<Image FileName="-2076304041" Left="1513" Top="698" Right="1578" Bottom="751" />
+										<TypeInfo Item0="{24C0E777-B8D8-4CC2-9389-E293E7B1130F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[@aria-label=&apos;1&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -10223,6 +10403,18 @@
 					</Child>
 				</Child>
 				<Child Name="BrowserWindow" Owner="{29F1F447-7F7D-4589-A467-B72EF8518A64}" />
+				<Child Name="textnodeCopyQuotation" Owner="{ED5085BA-7472-4867-8EF9-1A784211017F}">
+					<Child Name="textnodeCopyQuotation2" Owner="{3087B4A2-9391-43B2-B2D4-FC9D848E8BF3}">
+						<Child Name="linkCopyQuotation" Owner="{233EBEB8-5663-4339-8659-6BB87F5AC60D}" />
+					</Child>
+					<Child Name="textnodeDeleteQuotation" Owner="{6C61B018-6B26-443E-A7A4-305EE871BCE3}">
+						<Child Name="linkDeleteQuotation" Owner="{98E06EE9-5523-4071-AB86-BC7DF627E689}" />
+					</Child>
+					<Child Name="textnodeEdit" Owner="{26353370-BA1C-41BF-92DB-38A2133D2858}">
+						<Child Name="linkEdit" Owner="{5213DD47-4085-48B5-9F86-23BB02531BC8}" />
+					</Child>
+					<Child Name="textnodeCloseQuotation" Owner="{24E6E283-6B62-434A-85F2-3344D057F3C8}" />
+				</Child>
 			</Child>
 			<Child Name="pageQuotationsMagayaDigitalFreig" Owner="{212136FB-3B45-4743-9B00-0C8AC62E9D31}">
 				<Child Name="sectionQwyk" Owner="{533DD409-A7A0-4F8A-995A-92270F665F42}">
@@ -10344,6 +10536,10 @@
 						<Child Name="cell2" Owner="{ED0084F4-0033-4E3D-802E-563F46320140}" />
 						<Child Name="panel2000" Owner="{3313394D-D2C4-42C8-80AC-0F867C300A59}" />
 						<Child Name="cell3" Owner="{7B49D181-C01F-4CC3-86EB-0721DE384DFC}" />
+						<Child Name="buttonChooseYear" Owner="{A8E4F22A-9456-4A4F-A5C2-93D66EDB1FD4}" />
+						<Child Name="textnode2026" Owner="{34D1F3FC-74B9-4C39-A452-D224CCD65D75}" />
+						<Child Name="textnodeJan" Owner="{02D2E4BA-1599-428E-B4A0-0AD3DF80B883}" />
+						<Child Name="cell6" Owner="{81A2D36E-77AC-4E1D-8DFC-35A0FFEF3B2F}" />
 					</Child>
 					<Child Name="button" Owner="{0CA240D6-3D79-44CB-AEEE-8A8F53EFB8C2}" />
 					<Child Name="buttonCloseQuotation" Owner="{075CB439-8949-4E6F-A76D-1EF41C406184}" />
@@ -10984,6 +11180,9 @@
 					</Child>
 					<Child Name="navSummary" Owner="{C8696F25-3634-4C15-A892-C03649DF7443}">
 						<Child Name="linkOffers" Owner="{088EEB6E-7896-419C-8AFC-D8E8F863286B}" />
+					</Child>
+					<Child Name="formCarrier" Owner="{80A2ECEF-6A2A-42B2-9FFD-9E278CB90DF2}">
+						<Child Name="buttonChooseYear2" Owner="{B8061E96-CACA-490F-83E9-9B6B276EDB33}" />
 					</Child>
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
