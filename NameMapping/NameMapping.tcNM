@@ -10080,6 +10080,29 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionDfp" Key="{C51F8604-E48F-49C0-BDFC-001EDE3F9948}">
+										<Image FileName="1630809286" Left="40" Top="139" Right="1905" Bottom="1830" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{ECB23327-87BA-4070-A928-98CBB91EFC71}">
+										<Image FileName="1630809286" Left="1765" Top="456" Right="1893" Bottom="502" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(text(), &apos;Booking Date&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}">
@@ -11266,6 +11289,9 @@
 					<Child Name="textnodeYiselObiolMagaya2" Owner="{27EC03B3-F3FD-4286-AE20-4BC356EE1233}">
 						<Child Name="panel2" Owner="{B517E1F7-EC6B-4C9B-857C-FDA53D9AFE77}" />
 					</Child>
+				</Child>
+				<Child Name="sectionDfp" Owner="{C51F8604-E48F-49C0-BDFC-001EDE3F9948}">
+					<Child Name="cell" Owner="{ECB23327-87BA-4070-A928-98CBB91EFC71}" />
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{8E02CEBF-E5A6-4D34-AF65-7FA7D37A3DC8}" />

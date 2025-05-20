@@ -8,5 +8,6 @@
 		<child name="Event_OnLogWarning" key="{747AA951-16F5-4825-9D81-16C136E6A454}" path="Event_OnLogWarning.js" />
 		<child name="FailTest" key="{2E912377-3CEB-48AE-B1FF-C7082397AA0B}" path="FailTest.js" />
 		<child name="CleanCache" key="{680BA9DC-0A00-4A52-AA7F-249F8116C945}" path="CleanCache.js" />
+		<child name="VerifyBookingDate" key="{F435E471-59E1-4FCB-9C5A-CA91B8BBD6E8}" path="VerifyBookingDate.js" />
 	</children>
 </Root>
