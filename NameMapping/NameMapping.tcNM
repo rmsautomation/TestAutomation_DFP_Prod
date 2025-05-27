@@ -9273,7 +9273,7 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//td[contains(text(), &apos;$15,971.34&apos;)]" />
+												<Value Value="//td[contains(text(), &apos;$15,971.34&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="//tfoot/tr/td[contains(@class, &apos;font-weight-bold&apos;)]" />
