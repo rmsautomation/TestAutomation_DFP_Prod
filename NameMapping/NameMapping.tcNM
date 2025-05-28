@@ -9194,6 +9194,92 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode" Key="{36CA4E72-75C6-45CF-9C6B-18F9A596504A}">
+										<Image FileName="-1354303536" Left="699" Top="1006" Right="712" Bottom="1013" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{B4F3F25A-E071-4843-9206-146B0CD8218B}">
+										<Image FileName="-1010537953" Left="255" Top="748" Right="712" Bottom="784" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p-overlay//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;p-dropdown-filter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-overlay//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsd" Key="{5FBDC9DC-3169-442E-A553-8A43FF3BCF21}">
+										<Image FileName="148299370" Left="242" Top="791" Right="725" Bottom="825" />
+										<Selectors>
+											<Selector>
+												<Value Value="#currency_0" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;USD&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;currency_list&apos;]//li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUnitedStatesDollar" Key="{48A30175-563A-4A08-96E5-1E5DC7F95186}">
+										<Image FileName="148299370" Left="255" Top="798" Right="712" Bottom="819" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[2]/ul//div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;currency_0&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{D0C60DC1-E6DD-4AF0-BE8B-47F499BD40F6}">
+										<Image FileName="-2090430103" Left="1500" Top="682" Right="1615" Bottom="721" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;$15,971.34&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//tfoot/tr/td[contains(@class, &apos;font-weight-bold&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -11206,6 +11292,12 @@
 					</Child>
 					<Child Name="formCarrier" Owner="{80A2ECEF-6A2A-42B2-9FFD-9E278CB90DF2}">
 						<Child Name="buttonChooseYear2" Owner="{B8061E96-CACA-490F-83E9-9B6B276EDB33}" />
+						<Child Name="textnode" Owner="{36CA4E72-75C6-45CF-9C6B-18F9A596504A}" />
+						<Child Name="textbox" Owner="{B4F3F25A-E071-4843-9206-146B0CD8218B}" />
+						<Child Name="textnodeUsd" Owner="{5FBDC9DC-3169-442E-A553-8A43FF3BCF21}">
+							<Child Name="panelUnitedStatesDollar" Owner="{48A30175-563A-4A08-96E5-1E5DC7F95186}" />
+						</Child>
+						<Child Name="cell2" Owner="{D0C60DC1-E6DD-4AF0-BE8B-47F499BD40F6}" />
 					</Child>
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />

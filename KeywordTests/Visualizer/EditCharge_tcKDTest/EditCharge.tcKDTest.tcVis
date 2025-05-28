@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{4D39F010-4743-4B71-916F-3CA6C7BC2616}" />
+	<data key="{4D39F010-4743-4B71-916F-3CA6C7BC2616}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45804.8909490741" objectName="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.formCarrier.textnode" objectLeft="699" objectTop="1006" objectRight="712" objectBottom="1013" clickPointX="706" clickPointY="1012" imageFileName="tcvi-1031354484112680.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45804.8909722222" objectName="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.formCarrier.textbox" objectLeft="255" objectTop="748" objectRight="712" objectBottom="784" clickPointX="402" clickPointY="759" imageFileName="tcvi-1031352406112681.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45804.8909837963" objectName="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.formCarrier.textbox" objectLeft="255" objectTop="748" objectRight="712" objectBottom="784" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-1031351406112682.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45804.8910069444" objectName="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.formCarrier.textnodeUsd.panelUnitedStatesDollar" objectLeft="255" objectTop="798" objectRight="712" objectBottom="819" clickPointX="416" clickPointY="812" imageFileName="tcvi-1031349437112683.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45804.8911342593" objectName="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.formCarrier.cell2" objectLeft="1500" objectTop="682" objectRight="1615" objectBottom="721" clickPointX="1585" clickPointY="700" imageFileName="tcvi-1031338515112688.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
