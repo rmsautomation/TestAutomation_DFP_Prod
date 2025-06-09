@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{90CC6FAD-D47C-4706-B940-4330C4F7FAAF}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45817.6501388889" objectName="Aliases.chrome2.pageMagayaQaDfp.navDashboard.textnodeWarehouse.linkWarehouse.textnodeWarehouse2" objectLeft="48" objectTop="235" objectRight="120" objectBottom="257" clickPointX="93" clickPointY="244" imageFileName="tcvi1087352796114120.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45817.6501967593" objectName="Aliases.chrome2.pageMagayaQaDfp.navDashboard.textnodeCargoDetail.textnodeWarehouseReceipts.linkWarehouseReceipts" objectLeft="0" objectTop="434" objectRight="219" objectBottom="476" clickPointX="114" clickPointY="452" imageFileName="tcvi1087358109114121.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
