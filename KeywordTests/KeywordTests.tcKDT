@@ -31,6 +31,7 @@
 				<child name="TC_13_QWYK_149_Portal_QuotationTruck_Full_FTLBuyerRequested" key="{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" path="TC_13_QWYK_149_Portal_QuotationTruck_Full_FTLBuyerRequested.tcKDTest" />
 				<child name="TC_14_QWYK_150_Portal_QuotationTrucLTL_SellerRequested" key="{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" path="TC_14_QWYK_150_Portal_QuotationTrucLTL_SellerRequested.tcKDTest" />
 				<child name="TC_15_QWYK_152_Portal_QuotationAIR_BuyerRequested" key="{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" path="TC_15_QWYK_152_Portal_QuotationAIR_BuyerRequested.tcKDTest" />
+				<child name="CustomFieldsTableView_SH_WH" key="{9FBAF0CD-2B2A-47E5-96A9-B812FB9D8063}" path="CustomFieldsTableView_SH_WH.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Utils">
@@ -101,6 +102,15 @@
 					<child name="LTLOptionsPortal" key="{24B996B6-4ECA-48EA-9B89-E9A64B476A84}" path="LTLOptionsPortal.tcKDTest" />
 					<child name="SelectAIRPortal" key="{851EA60D-7BDD-45F7-875B-2AA99DC3A403}" path="SelectAIRPortal.tcKDTest" />
 				</folder>
+				<folder name="Shipments">
+					<child name="GoToShipmentsOption" key="{1DF57FC7-4085-4D4D-BB0E-90E5BFA7D2A2}" path="GoToShipmentsOption.tcKDTest" />
+					<child name="SelectTableView" key="{60AE025F-D652-4EEE-BB0C-3EFD318A15E8}" path="SelectTableView.tcKDTest" />
+					<child name="VerifyCustomFieldsShipment" key="{87E8C925-AEB7-4625-8B23-B1676F87BD57}" path="VerifyCustomFieldsShipment.tcKDTest" />
+				</folder>
+				<folder name="WH">
+					<child name="GoToWH" key="{90CC6FAD-D47C-4706-B940-4330C4F7FAAF}" path="GoToWH.tcKDTest" />
+					<child name="VerifyCustomFieldsWH" key="{2B82CE57-AE76-456D-AF79-427C96620D01}" path="VerifyCustomFieldsWH.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Email">
 				<child name="VerifyQuoteEmail" key="{2141D23D-F9D7-42DC-A4C4-1CF16C23B1A2}" path="VerifyQuoteEmail.tcKDTest" />
@@ -112,6 +122,7 @@
 				<child name="LogoutPOrtal" key="{01D2BD45-4D0E-4889-8568-907B69F0354F}" path="LogoutPOrtal.tcKDTest" />
 				<child name="LogoutHubINT" key="{25D0890C-B454-41D7-B6FC-632037AF3906}" path="LogoutHubINT.tcKDTest" />
 				<child name="LoginHubNoInt" key="{9EE31A61-3C5D-4E09-9C85-092D509FEFE8}" path="LoginHubNoInt.tcKDTest" />
+				<child name="LoginPortal38448" key="{4292855F-D598-441B-AD90-BC44AD3AB26E}" path="LoginPortal38448.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Hooks">

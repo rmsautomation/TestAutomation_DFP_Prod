@@ -4704,6 +4704,81 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="formSignInToYourAccount" Key="{B8AB4421-ECE2-482F-9EB3-7BE6EF9D8224}">
+										<Image FileName="733006598" Left="1078" Top="378" Right="1528" Bottom="699" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign in to your account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;pt-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{274F8D71-F3FF-4837-84A7-FD0A8B2D62CB}">
+										<Image FileName="733006598" Left="1078" Top="457" Right="1528" Bottom="505" />
+										<TypeInfo Item0="{61D159F8-C951-41A7-9A2C-B7D031E5C0EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{D9D079A3-180A-4417-98D4-0A126B6598DC}">
+										<Image FileName="733006598" Left="1078" Top="550" Right="1528" Bottom="598" />
+										<TypeInfo Item0="{61D159F8-C951-41A7-9A2C-B7D031E5C0EC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignIn" Key="{66D090B2-83B0-45BA-9EF7-B81624DF9119}">
+										<Image FileName="422473896" Left="1078" Top="614" Right="1528" Bottom="652" />
+										<TypeInfo Item0="{0FA95922-5259-4B01-B64E-97A6A4C4FF60}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya3" Key="{78BC1E93-79ED-4600-85D7-71C598836EE8}">
@@ -9280,6 +9355,556 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeShipments" Key="{84B6FAA3-423F-46DF-B7C5-25A369F944F8}">
+										<Image FileName="-1916338939" Left="0" Top="269" Right="219" Bottom="315" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Create shipment&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShipments" Key="{CF527B8A-BA8E-48B2-9C5A-3AF193464D82}">
+										<Image FileName="-1916338939" Left="0" Top="269" Right="219" Bottom="315" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Shipments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li[4]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//nav/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeShipments2" Key="{F25DCE42-6E51-4769-9368-F6CE08CE5C67}">
+										<Image FileName="-1916338939" Left="48" Top="281" Right="116" Bottom="303" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Shipments&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span[contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;shipments&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formDraft" Key="{BF3992F8-FD76-4571-8DBB-69912A73B2E4}">
+										<Image FileName="956781292" Left="478" Top="259" Right="1648" Bottom="350" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Draft&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgImg" Key="{7E81456F-985B-42B0-B8F4-BB11EF627457}">
+										<Image FileName="956781292" Left="518" Top="323" Right="532" Bottom="337" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/fa-icon/*[name()=&apos;svg&apos;][@role=&apos;img&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/fa-icon/*[name()=&apos;svg&apos;][contains(@class, &apos;svg-inline--fa&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHereIsASnapshotOfWhatS" Key="{99006477-D0E8-442D-88D4-BC81D1955EAF}">
+										<Image FileName="-1439167147" Left="252" Top="216" Right="1889" Bottom="238" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;staticDashboard&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionGoodMorningAylinAnnia" Key="{811AD184-F0B3-425B-AE7C-D95FDD869730}">
+										<Image FileName="254604006" Left="220" Top="87" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Good morning Aylin Annia&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYourReference" Key="{442D7B46-F252-4A2A-9256-1685F77F5269}">
+										<Image FileName="-317447447" Left="235" Top="430" Right="1890" Bottom="973" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;p-datatable-wrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelIncoTerms" Key="{F4EDE962-5072-454D-8122-3EF259F0BCE5}">
+										<Image FileName="1138809928" Left="327" Top="441" Right="461" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;INCO Terms&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[61]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[61]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[61]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBoolean" Key="{E3ED9783-DB29-40E9-BF90-8070204AEBEE}">
+										<Image FileName="1073324206" Left="489" Top="441" Right="599" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Boolean&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[62]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[62]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[62]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDfpShipperReference" Key="{F652889D-1A15-4F39-B33C-6EBC0701DF2D}">
+										<Image FileName="-2090784439" Left="627" Top="441" Right="833" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DFP Shipper Reference&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[63]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[63]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[63]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDfpConsigneeReference" Key="{A9C36618-AE92-46B6-95C8-30B370795EAF}">
+										<Image FileName="75228887" Left="862" Top="441" Right="1085" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DFP Consignee Reference&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[64]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[64]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[64]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDfpPricing" Key="{2524E065-3C23-4DEF-9D8B-DD5EBFD2063E}">
+										<Image FileName="-1151167854" Left="1113" Top="441" Right="1245" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DFP Pricing&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[65]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[65]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[65]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDfpForwarder" Key="{A0539FDA-B1D1-4929-8898-14E542E740EA}">
+										<Image FileName="293633840" Left="1274" Top="441" Right="1428" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DFP Forwarder&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[66]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[66]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[66]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDfpPaymentTerms" Key="{DE12B3BC-A80B-4C82-8BCD-5E449CD97CAB}">
+										<Image FileName="-2034708453" Left="1456" Top="441" Right="1641" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DFP Payment terms&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[67]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[67]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[67]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDfpIncoTerms" Key="{7C559711-F062-4C75-A8DD-BB0FBBDC1855}">
+										<Image FileName="-1033266558" Left="1670" Top="441" Right="1834" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DFP INCO Terms&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[68]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[68]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[68]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDfpCargoReady" Key="{2B3FC6C1-50BD-41CF-8227-1C2A440CC4CE}">
+										<Image FileName="525355885" Left="1308" Top="441" Right="1474" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DFP Cargo ready&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[69]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[69]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[69]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShipperReference" Key="{150806EA-67CD-48DD-97F7-7E56F3002D68}">
+										<Image FileName="1645711432" Left="1502" Top="441" Right="1678" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[70]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[70]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[70]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShipmentGuid" Key="{455C9BC3-E7B1-4DA8-98B7-A71A763CEBE8}">
+										<Image FileName="608957072" Left="1706" Top="441" Right="1860" Bottom="473" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Shipment Guid&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[71]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_45-table&apos;]//th[71]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[71]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWarehouse" Key="{850518CA-EEFD-4E5D-8A36-30ACF9652D24}">
+										<Image FileName="76594142" Left="0" Top="223" Right="219" Bottom="269" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Warehouse&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWarehouse" Key="{02809A0B-E20E-4FE0-B12D-77DC6EACD005}">
+										<Image FileName="76594142" Left="0" Top="223" Right="219" Bottom="269" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Warehouse&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//nav/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWarehouse2" Key="{053EE094-F7AE-4CDC-ACCD-921476D07DA3}">
+										<Image FileName="76594142" Left="48" Top="235" Right="120" Bottom="257" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Warehouse&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/span[contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;cargo-detail&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCargoDetail" Key="{A9E71044-1D0F-4705-BB0B-413CB0EB3E74}">
+										<Image FileName="1003487140" Left="0" Top="268" Right="219" Bottom="476" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Cargo Detail&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[3]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWarehouseReceipts" Key="{42337BF2-7CCE-4CD4-94BF-658E6B030AA5}">
+										<Image FileName="1003487140" Left="0" Top="434" Right="219" Bottom="476" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWarehouseReceipts" Key="{06D7B197-D420-43FE-983C-8C9B590563E9}">
+										<Image FileName="1003487140" Left="0" Top="434" Right="219" Bottom="476" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Warehouse Receipts&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelStringcustomfield" Key="{4A410E3A-4D0A-4506-A64D-C63C8AC3EE81}">
+										<Image FileName="-864627098" Left="278" Top="425" Right="455" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;StringCustomField&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[47]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[47]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[47]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelIntegercustomfield" Key="{B2EDC7C2-5917-4726-BCB0-4B50CA36661B}">
+										<Image FileName="1079435872" Left="704" Top="425" Right="889" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;IntegerCustomField&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[49]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[49]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[49]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDecimalcustomfield" Key="{2AE08B4E-E9B5-4C4B-A531-6C56BBAD2A8B}">
+										<Image FileName="-1340463619" Left="917" Top="425" Right="1108" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DecimalCustomField&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[50]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[50]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[50]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPicklistcustomfield" Key="{881BF553-BD07-4A52-AEED-CB07200E20D4}">
+										<Image FileName="-810081946" Left="1136" Top="425" Right="1324" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;PickListCustomField&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[51]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[51]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[51]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDatecustomfield" Key="{5CA82ECA-CBB4-459E-B47D-01F195233FC0}">
+										<Image FileName="227661591" Left="1352" Top="425" Right="1520" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;DateCustomField&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[52]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[52]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[52]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMoneycustomfield" Key="{A1E1591D-7FB1-443E-BAEF-DDE2EB90AF1A}">
+										<Image FileName="2112659083" Left="1549" Top="425" Right="1732" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;MoneyCustomField&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[53]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[53]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[53]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLookupcutomsfield" Key="{6D808AB7-E8A6-458C-BD66-C1051F1D978E}">
+										<Image FileName="-1034153724" Left="1761" Top="425" Right="1948" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;LookupCutomsField&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[54]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[54]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[54]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelQatest" Key="{ECB1CA19-76B1-42B1-8799-27B0452FEB3B}">
+										<Image FileName="722424051" Left="1555" Top="425" Right="1731" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;QATest&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[55]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[55]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[55]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGuidwh" Key="{A22A8DDE-CAFB-4DE3-B1CE-3EB3AD438C0B}">
+										<Image FileName="-1845873610" Left="1759" Top="425" Right="1875" Bottom="457" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;GUIDWH&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[56]/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pn_id_507-table&apos;]//th[56]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//th[56]/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -10812,6 +11437,7 @@
 						<Child Name="textnodeShipmentStatusUpdatedTo" Owner="{03CA0BAD-68C3-4E0A-B92A-0272B53DA55E}" />
 					</Child>
 					<Child Name="textnodeBooked" Owner="{1E8BC232-65DB-4550-BD19-0707C13457D8}" />
+					<Child Name="textnodeHereIsASnapshotOfWhatS" Owner="{99006477-D0E8-442D-88D4-BC81D1955EAF}" />
 				</Child>
 				<Child Name="headerTopnavbar" Owner="{24E4E497-56B1-4A4F-BD2A-B6A000B4A709}">
 					<Child Name="textnode3" Owner="{80241F31-9E39-4D20-89A3-47957F1F1AF0}">
@@ -10837,6 +11463,11 @@
 					<Child Name="linkNotifications" Owner="{98F2F6BB-E98A-4A47-87ED-79111691A771}">
 						<Child Name="textnode45" Owner="{E68F365C-9898-4DD1-8B98-1568B2FF501F}" />
 					</Child>
+				</Child>
+				<Child Name="formSignInToYourAccount" Owner="{B8AB4421-ECE2-482F-9EB3-7BE6EF9D8224}">
+					<Child Name="textboxUsername" Owner="{274F8D71-F3FF-4837-84A7-FD0A8B2D62CB}" />
+					<Child Name="passwordboxPassword" Owner="{D9D079A3-180A-4417-98D4-0A126B6598DC}" />
+					<Child Name="buttonSignIn" Owner="{66D090B2-83B0-45BA-9EF7-B81624DF9119}" />
 				</Child>
 			</Child>
 			<Child Name="pageMagaya3" Owner="{78BC1E93-79ED-4600-85D7-71C598836EE8}">
@@ -11275,6 +11906,21 @@
 							<Child Name="linkSignIn" Owner="{0DA6FFAE-0B0C-4BDE-B99A-F07C36C33B5B}" />
 						</Child>
 					</Child>
+					<Child Name="textnodeShipments" Owner="{84B6FAA3-423F-46DF-B7C5-25A369F944F8}">
+						<Child Name="linkShipments" Owner="{CF527B8A-BA8E-48B2-9C5A-3AF193464D82}">
+							<Child Name="textnodeShipments2" Owner="{F25DCE42-6E51-4769-9368-F6CE08CE5C67}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeWarehouse" Owner="{850518CA-EEFD-4E5D-8A36-30ACF9652D24}">
+						<Child Name="linkWarehouse" Owner="{02809A0B-E20E-4FE0-B12D-77DC6EACD005}">
+							<Child Name="textnodeWarehouse2" Owner="{053EE094-F7AE-4CDC-ACCD-921476D07DA3}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeCargoDetail" Owner="{A9E71044-1D0F-4705-BB0B-413CB0EB3E74}">
+						<Child Name="textnodeWarehouseReceipts" Owner="{42337BF2-7CCE-4CD4-94BF-658E6B030AA5}">
+							<Child Name="linkWarehouseReceipts" Owner="{06D7B197-D420-43FE-983C-8C9B590563E9}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="formSignInToYourAccount" Owner="{720798BF-2F2C-4541-918C-5048F15094FC}">
 					<Child Name="textboxUsername" Owner="{6031A22B-5045-49DF-BB73-BA26799DC174}" />
@@ -11299,6 +11945,30 @@
 						</Child>
 						<Child Name="cell2" Owner="{D0C60DC1-E6DD-4AF0-BE8B-47F499BD40F6}" />
 					</Child>
+					<Child Name="formDraft" Owner="{BF3992F8-FD76-4571-8DBB-69912A73B2E4}">
+						<Child Name="vgImg" Owner="{7E81456F-985B-42B0-B8F4-BB11EF627457}" />
+					</Child>
+					<Child Name="panelYourReference" Owner="{442D7B46-F252-4A2A-9256-1685F77F5269}" />
+					<Child Name="panelIncoTerms" Owner="{F4EDE962-5072-454D-8122-3EF259F0BCE5}" />
+					<Child Name="panelBoolean" Owner="{E3ED9783-DB29-40E9-BF90-8070204AEBEE}" />
+					<Child Name="panelDfpShipperReference" Owner="{F652889D-1A15-4F39-B33C-6EBC0701DF2D}" />
+					<Child Name="panelDfpConsigneeReference" Owner="{A9C36618-AE92-46B6-95C8-30B370795EAF}" />
+					<Child Name="panelDfpPricing" Owner="{2524E065-3C23-4DEF-9D8B-DD5EBFD2063E}" />
+					<Child Name="panelDfpForwarder" Owner="{A0539FDA-B1D1-4929-8898-14E542E740EA}" />
+					<Child Name="panelDfpPaymentTerms" Owner="{DE12B3BC-A80B-4C82-8BCD-5E449CD97CAB}" />
+					<Child Name="panelDfpIncoTerms" Owner="{7C559711-F062-4C75-A8DD-BB0FBBDC1855}" />
+					<Child Name="panelDfpCargoReady" Owner="{2B3FC6C1-50BD-41CF-8227-1C2A440CC4CE}" />
+					<Child Name="panelShipperReference" Owner="{150806EA-67CD-48DD-97F7-7E56F3002D68}" />
+					<Child Name="panelShipmentGuid" Owner="{455C9BC3-E7B1-4DA8-98B7-A71A763CEBE8}" />
+					<Child Name="panelStringcustomfield" Owner="{4A410E3A-4D0A-4506-A64D-C63C8AC3EE81}" />
+					<Child Name="panelIntegercustomfield" Owner="{B2EDC7C2-5917-4726-BCB0-4B50CA36661B}" />
+					<Child Name="panelDecimalcustomfield" Owner="{2AE08B4E-E9B5-4C4B-A531-6C56BBAD2A8B}" />
+					<Child Name="panelPicklistcustomfield" Owner="{881BF553-BD07-4A52-AEED-CB07200E20D4}" />
+					<Child Name="panelDatecustomfield" Owner="{5CA82ECA-CBB4-459E-B47D-01F195233FC0}" />
+					<Child Name="panelMoneycustomfield" Owner="{A1E1591D-7FB1-443E-BAEF-DDE2EB90AF1A}" />
+					<Child Name="panelLookupcutomsfield" Owner="{6D808AB7-E8A6-458C-BD66-C1051F1D978E}" />
+					<Child Name="panelQatest" Owner="{ECB1CA19-76B1-42B1-8799-27B0452FEB3B}" />
+					<Child Name="panelGuidwh" Owner="{A22A8DDE-CAFB-4DE3-B1CE-3EB3AD438C0B}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -11309,6 +11979,7 @@
 				<Child Name="textnodeTermsAndRemarks" Owner="{6293BB77-9C56-4159-93A9-9B4E5F61C850}" />
 				<Child Name="buttonConfirm" Owner="{D4F57F1D-EDB4-4C8A-94EE-D6A7979E2979}" />
 				<Child Name="sectionQwyk" Owner="{9A9A5846-C6B7-46EA-B025-94EFC71314D0}" />
+				<Child Name="sectionGoodMorningAylinAnnia" Owner="{811AD184-F0B3-425B-AE7C-D95FDD869730}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
