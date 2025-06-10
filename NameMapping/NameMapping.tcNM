@@ -329,10 +329,10 @@
 												<Value Value="//a[contains(text(), &apos;Recent Notifications&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//app-homepage//div[3]/qwyk-notifications-list-widget//a[contains(@class, &apos;h5&apos;)]" />
+												<Value Value="//app-homepage//div[3]/qwyk-notifications-list-widget//a[contains(@class, &apos;h5&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-notifications-list-widget/div/a" />
+												<Value Value="//qwyk-notifications-list-widget/div/a" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9905,6 +9905,316 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionDfp" Key="{35D568D3-2C5A-4785-9753-A2ABF7E9C1E3}">
+										<Image FileName="929823352" Left="50" Top="87" Right="1905" Bottom="2579" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNotifications" Key="{356C78B7-AE23-465C-A2CB-CAF8A29470FE}">
+										<Image FileName="929823352" Left="193" Top="199" Right="344" Bottom="231" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Notifications&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3[contains(@class, &apos;font-weight-normal&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h3" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinprodTest3" Key="{EB56FDB6-91BB-4D46-92A1-A1655D13FB60}">
+										<Image FileName="-1640625590" Left="193" Top="261" Right="1763" Bottom="2442" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;AylinProd Test&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinprodTest4" Key="{337472BF-9374-425D-8C34-BB828F56801B}">
+										<Image FileName="-1640625590" Left="193" Top="261" Right="1763" Bottom="349" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;AylinProd Test&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{D1AC01F3-F961-48AF-B84B-8C14791A319E}">
+										<Image FileName="-1640625590" Left="263" Top="304" Right="1598" Bottom="326" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;AylinProd Test from TestingProd booked a new shipment&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinprodTest5" Key="{09EBB851-2E65-4974-B70F-1FD17DF84619}">
+										<Image FileName="-1701732238" Left="263" Top="286" Right="347" Bottom="301" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;AylinProd Test&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li//span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode11DaysAgo" Key="{C66B5E36-E1EB-496F-9632-36FA2CBAE241}">
+										<Image FileName="-1701732238" Left="347" Top="286" Right="415" Bottom="301" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;11 days ago&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinprodTest6" Key="{0DE0FBA8-07AD-4B43-AA20-722843B1C346}">
+										<Image FileName="-1045357529" Left="193" Top="553" Right="1763" Bottom="640" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[25]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{14F18BAA-8C26-4EDD-A64A-DD4EDDCC3323}">
+										<Image FileName="-1045357529" Left="263" Top="595" Right="1598" Bottom="617" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/qwyk-notifications-list/ul/li[25]//div[2]/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinprodTest7" Key="{6837ECBA-E45E-4D83-A674-8499FF2F04DC}">
+										<Image FileName="-563642401" Left="263" Top="577" Right="347" Bottom="592" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[26]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li[25]//span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li[25]//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{F6F25400-C5F4-427D-BBF7-A2B8836021B9}">
+										<Image FileName="889634312" Left="1729" Top="689" Right="1742" Bottom="696" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_22&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId22List" Key="{77AB5030-9DF9-4CE1-9239-568BA6CA7523}">
+										<Image FileName="-964633950" Left="1696" Top="571" Right="1754" Bottom="673" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_22_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode50" Key="{EF5AA991-7ECD-4A4F-8174-32F73797587B}">
+										<Image FileName="-964633950" Left="1696" Top="639" Right="1754" Bottom="673" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_22_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode502" Key="{10B8ADD7-B654-4BB7-8835-9D72BB76672D}">
+										<Image FileName="-964633950" Left="1709" Top="648" Right="1725" Bottom="665" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_22_2&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLianetprodIntegration" Key="{7D53B6D8-14CE-4A6B-A874-F2B3E6E3B129}">
+										<Image FileName="-460921787" Left="193" Top="553" Right="1763" Bottom="640" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;LianetProd Integration&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLianetprodIntegration2" Key="{0A8F06E7-AD97-465B-A8A7-AF8DC105E139}">
+										<Image FileName="-460921787" Left="263" Top="576" Right="391" Bottom="591" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[last()]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[48]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;LianetProd Integration&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li[47]//span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li[47]//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{5B7DBC15-8015-4FF0-AE97-6B26060BD9A3}">
+										<Image FileName="805746672" Left="263" Top="594" Right="1598" Bottom="616" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[3]/qwyk-notifications-list/ul/li[47]//div[2]/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDropdownTrigger" Key="{8A54C153-13E5-45AB-B75F-B0839325C589}">
+										<Image FileName="-247382452" Left="1718" Top="938" Right="1754" Bottom="972" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;p-dropdown-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_22&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdown/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10" Key="{4D5886A4-9AD3-4C6A-B748-219105F9F44F}">
+										<Image FileName="2021953769" Left="1709" Top="843" Right="1725" Bottom="860" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_22_0&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLastPage" Key="{5D753577-471A-43B6-91B3-BDEB3192BD21}">
+										<Image FileName="-341654643" Left="1651" Top="937" Right="1687" Bottom="973" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-paginator-last&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYiselObiol" Key="{5032E8E9-D6CA-4FFE-97E1-73842C1D6E4F}">
+										<Image FileName="-873864970" Left="193" Top="207" Right="1763" Bottom="295" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Yisel Obiol&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-notifications-list/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYiselObiolFromTestingprod" Key="{A6B7FFAB-8C11-4F88-BB7E-4605170A573A}">
+										<Image FileName="-873864970" Left="263" Top="250" Right="1598" Bottom="272" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Yisel Obiol from TestingProd booked a new shipment&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode24DaysAgo" Key="{3DB97CB3-0714-44EF-966F-B2A0EDFBD4A3}">
+										<Image FileName="-578873519" Left="325" Top="232" Right="393" Bottom="247" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;24 days ago&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -11980,6 +12290,37 @@
 				<Child Name="buttonConfirm" Owner="{D4F57F1D-EDB4-4C8A-94EE-D6A7979E2979}" />
 				<Child Name="sectionQwyk" Owner="{9A9A5846-C6B7-46EA-B025-94EFC71314D0}" />
 				<Child Name="sectionGoodMorningAylinAnnia" Owner="{811AD184-F0B3-425B-AE7C-D95FDD869730}" />
+				<Child Name="sectionDfp" Owner="{35D568D3-2C5A-4785-9753-A2ABF7E9C1E3}">
+					<Child Name="textnodeNotifications" Owner="{356C78B7-AE23-465C-A2CB-CAF8A29470FE}" />
+					<Child Name="textnodeAylinprodTest3" Owner="{EB56FDB6-91BB-4D46-92A1-A1655D13FB60}">
+						<Child Name="textnodeAylinprodTest4" Owner="{337472BF-9374-425D-8C34-BB828F56801B}">
+							<Child Name="textnodeAylinprodTest5" Owner="{09EBB851-2E65-4974-B70F-1FD17DF84619}" />
+							<Child Name="textnode11DaysAgo" Owner="{C66B5E36-E1EB-496F-9632-36FA2CBAE241}" />
+						</Child>
+						<Child Name="textnodeAylinprodTest6" Owner="{0DE0FBA8-07AD-4B43-AA20-722843B1C346}">
+							<Child Name="panel2" Owner="{14F18BAA-8C26-4EDD-A64A-DD4EDDCC3323}" />
+						</Child>
+						<Child Name="textnodeLianetprodIntegration" Owner="{7D53B6D8-14CE-4A6B-A874-F2B3E6E3B129}">
+							<Child Name="panel3" Owner="{5B7DBC15-8015-4FF0-AE97-6B26060BD9A3}" />
+						</Child>
+						<Child Name="textnodeYiselObiol" Owner="{5032E8E9-D6CA-4FFE-97E1-73842C1D6E4F}">
+							<Child Name="textnode24DaysAgo" Owner="{3DB97CB3-0714-44EF-966F-B2A0EDFBD4A3}" />
+						</Child>
+					</Child>
+					<Child Name="textnode2" Owner="{F6F25400-C5F4-427D-BBF7-A2B8836021B9}" />
+					<Child Name="panelDropdownTrigger" Owner="{8A54C153-13E5-45AB-B75F-B0839325C589}" />
+					<Child Name="buttonLastPage" Owner="{5D753577-471A-43B6-91B3-BDEB3192BD21}" />
+				</Child>
+				<Child Name="firstNotificationHome" Owner="{D1AC01F3-F961-48AF-B84B-8C14791A319E}" />
+				<Child Name="latestNotification" Owner="{6837ECBA-E45E-4D83-A674-8499FF2F04DC}" />
+				<Child Name="textnodePnId22List" Owner="{77AB5030-9DF9-4CE1-9239-568BA6CA7523}">
+					<Child Name="textnode50" Owner="{EF5AA991-7ECD-4A4F-8174-32F73797587B}">
+						<Child Name="textnode502" Owner="{10B8ADD7-B654-4BB7-8835-9D72BB76672D}" />
+					</Child>
+					<Child Name="textnode10" Owner="{4D5886A4-9AD3-4C6A-B748-219105F9F44F}" />
+				</Child>
+				<Child Name="latestNoti50" Owner="{0A8F06E7-AD97-465B-A8A7-AF8DC105E139}" />
+				<Child Name="firstNotiLatestPage" Owner="{A6B7FFAB-8C11-4F88-BB7E-4605170A573A}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
