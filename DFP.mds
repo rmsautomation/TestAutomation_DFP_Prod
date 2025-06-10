@@ -99,11 +99,6 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="CustomFieldsTableView_SH_WH" key="{470E789E-9231-4EB7-9D11-B76E001D645F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9FBAF0CD-2B2A-47E5-96A9-B812FB9D8063}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
-				<children />
-			</testItem>
 			<testItem name="TC_QWYK_5305_CustomFieldsTableView_SH" key="{A0F53C5C-4934-40DC-A00A-92724BD4D73C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9FBAF0CD-2B2A-47E5-96A9-B812FB9D8063}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
@@ -116,7 +111,7 @@
 			</testItem>
 			<testItem name="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize" key="{7134DF18-A0A5-4580-8CA6-74007382B76B}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{03A9E3C3-40FB-43FB-91E3-8CD6D3241709}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
