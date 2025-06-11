@@ -99,9 +99,19 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="CustomFieldsTableView_SH_WH" key="{470E789E-9231-4EB7-9D11-B76E001D645F}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9FBAF0CD-2B2A-47E5-96A9-B812FB9D8063}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_QWYK_5305_CustomFieldsTableView_SH" key="{A0F53C5C-4934-40DC-A00A-92724BD4D73C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9FBAF0CD-2B2A-47E5-96A9-B812FB9D8063}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_QWYK_3072_CustomFieldsTableView_WH" key="{DBCB6FA0-ED6C-4F82-9F36-84238BB76421}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{573640C3-3D06-4A34-9220-A7D37011B8C8}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize" key="{7134DF18-A0A5-4580-8CA6-74007382B76B}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{03A9E3C3-40FB-43FB-91E3-8CD6D3241709}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -212,6 +222,18 @@
 					<DefValue StrValue="0" />
 				</Variable>
 				<Variable Name="now" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="firstNotificationHome" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="latestNotificationHome" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="latestsNoti50" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="fisrtNotiLatestPage" Type="String" Local="False">
 					<DefValue />
 				</Variable>
 			</Items>
