@@ -5073,6 +5073,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//li[contains(@class, &apos;p-autocomplete-item&apos;) and contains(@class, &apos;ng-star-inserted&apos;)])[1]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[.=&apos;Los Angeles, CA&apos;]" />
 											</Selector>
 											<Selector>
@@ -7150,6 +7153,9 @@
 										<Image FileName="-321622243" Left="1159" Top="509" Right="1184" Bottom="533" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//span[contains(@class, &apos;ng-arrow-wrapper&apos;)])[3]" />
+											</Selector>
 											<Selector>
 												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-rate-request-modal/form//ng-select//span[contains(@class, &apos;ng-arrow-wrapper&apos;)]" />
 											</Selector>
@@ -10143,6 +10149,12 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@id=&apos;pn_id_24&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[@role=&apos;button&apos;]" />
 											</Selector>
 											<Selector>
@@ -10212,6 +10224,33 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//span[.=&apos;24 days ago&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelCreate" Key="{BD129D62-274D-45A7-AD50-A274F871A1BC}">
+										<Image FileName="-1504796810" Left="235" Top="417" Right="1890" Bottom="482" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[2]/fa-icon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;btn-outline-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelYourReference2" Key="{360AB80E-5083-47CB-91DE-8585F5FEF78F}">
+										<Image FileName="-2090994176" Left="250" Top="493" Right="487" Bottom="525" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Your reference&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th/div[contains(@class, &apos;d-flex&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//th/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12279,6 +12318,8 @@
 					<Child Name="panelLookupcutomsfield" Owner="{6D808AB7-E8A6-458C-BD66-C1051F1D978E}" />
 					<Child Name="panelQatest" Owner="{ECB1CA19-76B1-42B1-8799-27B0452FEB3B}" />
 					<Child Name="panelGuidwh" Owner="{A22A8DDE-CAFB-4DE3-B1CE-3EB3AD438C0B}" />
+					<Child Name="textnodeTable" Owner="{BD129D62-274D-45A7-AD50-A274F871A1BC}" />
+					<Child Name="panelYourReference2" Owner="{360AB80E-5083-47CB-91DE-8585F5FEF78F}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
