@@ -9131,6 +9131,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//h5[.=&apos;Terms and remarks&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="ngb-modal-window[contains(., &apos;Terms and remarks&apos;)]" />
 											</Selector>
 											<Selector>
@@ -10023,7 +10026,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[26]" />
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[last()]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;d-flex&apos;) and contains(@class, &apos;align-items-center&apos;) and contains(@class, &apos;justify-content-between&apos;)])[26]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="//qwyk-notifications-list/ul/li[25]//span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
@@ -10251,6 +10257,65 @@
 											</Selector>
 											<Selector>
 												<Value Value="//th/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{B90225B0-2196-42E0-B663-C04E6E050BB8}">
+										<Image FileName="-1511538663" Left="1728" Top="684" Right="1743" Bottom="699" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_24&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId24List" Key="{33D44820-85BA-4ABB-84B0-39890B19A66C}">
+										<Image FileName="-145197284" Left="1696" Top="571" Right="1754" Bottom="673" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_24_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode503" Key="{82F37478-01A0-4B14-8838-E0297FAE11F2}">
+										<Image FileName="-145197284" Left="1696" Top="639" Right="1754" Bottom="673" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_24_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -12351,6 +12416,7 @@
 					<Child Name="textnode2" Owner="{F6F25400-C5F4-427D-BBF7-A2B8836021B9}" />
 					<Child Name="panelDropdownTrigger" Owner="{8A54C153-13E5-45AB-B75F-B0839325C589}" />
 					<Child Name="buttonLastPage" Owner="{5D753577-471A-43B6-91B3-BDEB3192BD21}" />
+					<Child Name="vg" Owner="{B90225B0-2196-42E0-B663-C04E6E050BB8}" />
 				</Child>
 				<Child Name="firstNotificationHome" Owner="{D1AC01F3-F961-48AF-B84B-8C14791A319E}" />
 				<Child Name="latestNotification" Owner="{6837ECBA-E45E-4D83-A674-8499FF2F04DC}" />
@@ -12362,6 +12428,9 @@
 				</Child>
 				<Child Name="latestNoti50" Owner="{0A8F06E7-AD97-465B-A8A7-AF8DC105E139}" />
 				<Child Name="firstNotiLatestPage" Owner="{A6B7FFAB-8C11-4F88-BB7E-4605170A573A}" />
+				<Child Name="textnodePnId24List" Owner="{33D44820-85BA-4ABB-84B0-39890B19A66C}">
+					<Child Name="textnode503" Owner="{82F37478-01A0-4B14-8838-E0297FAE11F2}" />
+				</Child>
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
