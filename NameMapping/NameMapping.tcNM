@@ -10319,6 +10319,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode1To13Of13" Key="{9BFB3143-349F-47F0-BD6E-9BD87F369503}">
+										<Image FileName="1686323487" Left="942" Top="976" Right="1013" Bottom="991" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//small[.=&apos;1 to 13 of 13&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//small[contains(@class, &apos;text-muted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//small" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -12431,6 +12446,7 @@
 				<Child Name="textnodePnId24List" Owner="{33D44820-85BA-4ABB-84B0-39890B19A66C}">
 					<Child Name="textnode503" Owner="{82F37478-01A0-4B14-8838-E0297FAE11F2}" />
 				</Child>
+				<Child Name="textnode1To13Of13" Owner="{9BFB3143-349F-47F0-BD6E-9BD87F369503}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">

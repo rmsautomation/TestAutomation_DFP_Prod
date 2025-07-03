@@ -92,6 +92,7 @@
 					<child name="ChangePaginationTo10" key="{75193E35-0A48-41CC-81D5-24C5BBE81881}" path="ChangePaginationTo10.tcKDTest" />
 					<child name="GoToLatestPage" key="{B8F9EC7D-8D28-4617-B30F-71B3CCEB41D8}" path="GoToLatestPage.tcKDTest" />
 					<child name="SaveFirstNotificationLatestPage" key="{DA918F97-EE9F-4EFC-BDA5-895FE449D1B3}" path="SaveFirstNotificationLatestPage.tcKDTest" />
+					<child name="SaveTotalNotifications" key="{0A644844-A960-44BC-B262-AD1B8F9FFDBE}" path="SaveTotalNotifications.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Portal">
